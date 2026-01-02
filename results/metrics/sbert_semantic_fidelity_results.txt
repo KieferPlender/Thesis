@@ -1,0 +1,9 @@
+SEMANTIC FIDELITY RESULTS (SBERT)
+======================================================================
+Mean similarity: 0.8647
+Median similarity: 0.8848
+Std deviation: 0.0883
+Min similarity: 0.0256
+Max similarity: 1.0000
+
+Result: PASS

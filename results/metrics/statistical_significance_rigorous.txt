@@ -1,0 +1,27 @@
+RIGOROUS STATISTICAL SIGNIFICANCE TESTING RESULTS
+(Using exact paired battle matching by conversation_id)
+================================================================================
+
+Intervention              Judge           n      Baseline   After      Δ        p-value    h        Effect      
+------------------------------------------------------------------------------------------------------------------------
+Markdown Removal          DeepSeek-R1     264     79.92%    76.52%    3.41pp  0.1374 ns   0.083  negligible  
+Markdown Removal          ChatGPT-4o      251     53.78%    50.60%    3.19pp  0.1859 ns   0.064  negligible  
+Markdown Removal          Claude-Haiku    485     21.44%    21.86%   -0.41pp  0.8383 ns  -0.010  negligible  
+Qwen Back-Translation     DeepSeek-R1     224     80.36%    75.45%    4.91pp  0.0633 ns   0.119  negligible  
+Qwen Back-Translation     ChatGPT-4o      220     51.82%    50.00%    1.82pp  0.5563 ns   0.036  negligible  
+Qwen Back-Translation     Claude-Haiku    408     19.61%    18.87%    0.74pp  0.6464 ns   0.019  negligible  
+Qwen Paraphrasing         DeepSeek-R1     217     79.26%    77.42%    1.84pp  0.5839 ns   0.045  negligible  
+Qwen Paraphrasing         ChatGPT-4o      216     53.24%    52.78%    0.46pp  1.0000 ns   0.009  negligible  
+Qwen Paraphrasing         Claude-Haiku    429     19.58%    22.61%   -3.03pp  0.0311 *   -0.074  negligible  
+
+Significance levels: *** p<0.001, ** p<0.01, * p<0.05, ns = not significant
+
+METHODOLOGY:
+- Exact paired battle matching by conversation_id
+- McNemar's test for paired binary data
+- Cohen's h for effect size
+
+KEY FINDING:
+- 1/9 interventions are statistically significant (p < 0.05)
+- 9/9 have negligible effect sizes (|h| < 0.2)
+- Changes are real but have limited practical impact

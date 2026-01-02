@@ -1,0 +1,1504 @@
+feature,importance,category
+CHAR: * **,0.0420762,CHAR
+CHAR: ** ,0.019922683,CHAR
+CHAR: :** ,0.018896759,CHAR
+CHAR: s*,0.017113617,CHAR
+CHAR: atio,0.013306147,CHAR
+POS: nn jj nnp nnp nn,0.01306827,POS
+CHAR: . -,0.011878486,CHAR
+CHAR: tio,0.011806042,CHAR
+CHAR: **,0.011777282,CHAR
+CHAR:  *,0.011159036,CHAR
+WORD: let me know if you,0.008964052,WORD
+CHAR: * *,0.008087836,CHAR
+WORD: know if you,0.0073783714,WORD
+CHAR: . **,0.0072001326,CHAR
+CHAR: pro,0.0064669745,CHAR
+CHAR: * ,0.0060899113,CHAR
+WORD: let me know,0.0056339144,WORD
+CHAR: - **,0.00558908,CHAR
+CHAR: # ,0.0053932844,CHAR
+CHAR: pr,0.004910103,CHAR
+"CHAR: 
+-",0.00488115,CHAR
+CHAR: --,0.0046864697,CHAR
+"CHAR: 
+- ",0.0043549584,CHAR
+CHAR:  di,0.0042880834,CHAR
+WORD: elaborate on any,0.0041686944,WORD
+WORD: like me to elaborate,0.004078053,WORD
+POS: nn jj nnp,0.003975614,POS
+CHAR: - ,0.003927789,CHAR
+POS: jj nnp nnp nnp,0.0038751685,POS
+POS: nnp nnp nnp nn nn,0.0038058127,POS
+CHAR: . *,0.0037890098,CHAR
+POS: cd vb jj,0.0037726944,POS
+CHAR:  (,0.0037002277,CHAR
+WORD: me to elaborate,0.0035713026,WORD
+POS: jj nns cd,0.0034769285,POS
+POS: in dt nn cc,0.0033057006,POS
+"CHAR: "" ",0.003096828,CHAR
+POS: jj nn nns,0.0029683004,POS
+CHAR: f ,0.002957545,CHAR
+POS: nn jj nn in,0.0028996188,POS
+CHAR: ##,0.0028563414,CHAR
+CHAR: : ,0.0028345326,CHAR
+CHAR: na,0.0028302448,CHAR
+CHAR: ica,0.0027802156,CHAR
+"CHAR: .
+",0.0027190263,CHAR
+CHAR: the ,0.0027164156,CHAR
+CHAR:  1,0.0026749088,CHAR
+WORD: like me to elaborate on,0.0025857706,WORD
+"CHAR: , ",0.0025854385,CHAR
+POS: cc jj nnp nnp,0.0025653886,POS
+WORD: me know if you need,0.0025609438,WORD
+POS: nnp nn jj,0.0025087658,POS
+POS: nn nnp nnp,0.002461907,POS
+CHAR:  ##,0.0024061701,CHAR
+WORD: apologize but cannot,0.0023746837,WORD
+"CHAR:  """,0.0023653335,CHAR
+CHAR:  * ,0.0023400458,CHAR
+WORD: would you like,0.0022551203,WORD
+WORD: would you like me,0.0022353688,WORD
+POS: nn nn jj,0.0022030554,POS
+POS: jj nnp nnp nnp nn,0.0021893336,POS
+CHAR: ---,0.002143463,CHAR
+CHAR: ve ,0.0021367848,CHAR
+CHAR: omp,0.0021083911,CHAR
+CHAR: :**,0.0020979098,CHAR
+POS: jj nnp nnp cc,0.0020843134,POS
+POS: jj nn dt,0.0020774093,POS
+CHAR:  it,0.0020636867,CHAR
+CHAR: w ,0.0020278497,CHAR
+CHAR:  -,0.0020272927,CHAR
+POS: nns in jj,0.0020098428,POS
+WORD: such as the,0.0020097091,WORD
+WORD: me to elaborate on,0.0019841276,WORD
+CHAR: c ,0.001983419,CHAR
+CHAR: di,0.0019512599,CHAR
+POS: nn wdt vbz,0.0019227021,POS
+POS: in nnp nnp nnp,0.001906582,POS
+POS: nnp nnp nn nnp,0.0018743249,POS
+CHAR: of,0.0018721304,CHAR
+POS: jj nns vbg,0.0018695542,POS
+CHAR: rat,0.0018329086,CHAR
+WORD: in the early,0.0018175774,WORD
+POS: vb prp vb,0.0018139613,POS
+CHAR: tha,0.0018052857,CHAR
+CHAR: . ,0.0017934948,CHAR
+POS: nns vb jj,0.0017791893,POS
+POS: nn vbz dt,0.0017484014,POS
+CHAR: anc,0.0017228001,CHAR
+POS: nnp nnp nn jj,0.0017125731,POS
+CHAR: all,0.001708668,CHAR
+POS: nnp nns in,0.0017013684,POS
+WORD: you re asking,0.0016967251,WORD
+POS: nns dt nn,0.0016940859,POS
+CHAR: gh,0.0016919182,CHAR
+CHAR:  n,0.0016824168,CHAR
+POS: jj nns vb,0.001682369,POS
+CHAR:  on,0.0016795815,CHAR
+WORD: let break down,0.0016646441,WORD
+POS: vb jj nnp nnp nnp,0.0016529834,POS
+CHAR: e.,0.0016509288,CHAR
+POS: nns in nns,0.0016489833,POS
+CHAR: ng ,0.0016487153,CHAR
+POS: nn prp vbp,0.0016450569,POS
+CHAR: ni,0.0016279725,CHAR
+POS: nn nnp nn nn,0.001618059,POS
+CHAR:  th,0.0016136976,CHAR
+POS: nn in vbg,0.0016118471,POS
+CHAR: be,0.0016035081,CHAR
+POS: nn cd vb jj nnp,0.0015988956,POS
+CHAR: ow,0.0015907646,CHAR
+CHAR:  of ,0.0015889193,CHAR
+POS: nn nnp cd,0.0015814847,POS
+POS: jj cc jj,0.0015791807,POS
+POS: vb jj nns,0.0015766454,POS
+CHAR: per,0.0015750318,CHAR
+CHAR: ee,0.0015574858,CHAR
+POS: nn vbz nnp,0.0015555369,POS
+CHAR: m ,0.0015529422,CHAR
+POS: vb in dt,0.0015524925,POS
+POS: in nn in,0.0015449451,POS
+CHAR:  st,0.0015324365,CHAR
+CHAR: nt,0.0015304587,CHAR
+CHAR: ical,0.0015303722,CHAR
+CHAR: you,0.0015274301,CHAR
+POS: nns in nn,0.0015273332,POS
+POS: cc dt jj,0.0015242363,POS
+CHAR: com,0.0015143101,CHAR
+CHAR: sti,0.0015110577,CHAR
+POS: nns vbn in,0.0015093342,POS
+POS: dt nn cc,0.0015092443,POS
+CHAR: ct,0.0015069393,CHAR
+CHAR: and,0.001488411,CHAR
+POS: nn jj nns,0.0014811796,POS
+POS: cc nnp nnp,0.0014625352,POS
+CHAR:  fo,0.0014622889,CHAR
+CHAR: ex,0.0014590845,CHAR
+CHAR: te,0.0014580579,CHAR
+POS: nnp vbz jj,0.0014560836,POS
+WORD: parts of the,0.0014560185,WORD
+POS: nn vbz jj,0.0014560178,POS
+CHAR: on,0.0014553748,CHAR
+CHAR: ge,0.001454091,CHAR
+POS: nn nns nn,0.001447533,POS
+CHAR: ess,0.0014429936,CHAR
+CHAR: to ,0.0014374367,CHAR
+"CHAR: s, ",0.0014360099,CHAR
+CHAR: ti,0.0014353729,CHAR
+CHAR:  an,0.0014349694,CHAR
+POS: jj nn cd,0.0014302972,POS
+CHAR: est,0.0014257064,CHAR
+POS: jj nn nn jj,0.0014243604,POS
+CHAR:  or,0.0014242748,CHAR
+CHAR: s:,0.0014086944,CHAR
+CHAR: ati,0.0014058836,CHAR
+POS: nns nn jj nnp,0.0013992804,POS
+CHAR: fa,0.0013979684,CHAR
+CHAR: is,0.0013951713,CHAR
+CHAR: fe,0.0013848378,CHAR
+CHAR:  wit,0.0013811213,CHAR
+POS: dt nn in dt,0.0013749487,POS
+POS: nn in dt,0.0013736469,POS
+POS: jj jj jj nn,0.0013719166,POS
+POS: in nn nnp,0.0013707877,POS
+POS: jj jj nnp,0.0013632327,POS
+POS: to vb nnp,0.0013576737,POS
+POS: jj jj nnp nnp,0.0013484749,POS
+CHAR: ers,0.0013349045,CHAR
+POS: in dt nn nn,0.0013299957,POS
+CHAR: and ,0.0013212006,CHAR
+"CHAR: e, ",0.0013183814,CHAR
+POS: nn cd nn,0.001318122,POS
+CHAR:  in,0.0013130216,CHAR
+POS: nnp in dt,0.0013120506,POS
+CHAR: ff,0.0013062553,CHAR
+CHAR: ive,0.0013052964,CHAR
+POS: nn prp md,0.0013038341,POS
+POS: nnp nn jj nnp nnp,0.0012996522,POS
+CHAR: fi,0.0012980216,CHAR
+CHAR:  c,0.0012952596,CHAR
+POS: in prp nn,0.0012902297,POS
+CHAR:  **,0.0012888189,CHAR
+CHAR: le ,0.0012872112,CHAR
+POS: nnp in nnp nnp,0.001285891,POS
+CHAR: ne,0.0012827895,CHAR
+CHAR: ab,0.0012789625,CHAR
+CHAR: ate,0.0012778661,CHAR
+CHAR:  to ,0.0012777816,CHAR
+CHAR: ly ,0.001275745,CHAR
+POS: nn vbz rb,0.001271821,POS
+POS: dt nnp nnp,0.0012703324,POS
+POS: nn nn dt,0.0012681715,POS
+POS: jj nn nnp nnp,0.0012618452,POS
+CHAR: enc,0.001257308,CHAR
+POS: nn in dt jj,0.0012529701,POS
+POS: nnp nnp cc,0.0012493724,POS
+CHAR: an,0.0012460239,CHAR
+POS: nnp cc nnp nnp,0.0012423744,POS
+POS: cc jj nns,0.001241025,POS
+POS: nn to vb,0.0012409912,POS
+CHAR: nd,0.0012388307,CHAR
+CHAR: he ,0.0012331577,CHAR
+POS: jj nns in,0.0012318743,POS
+POS: nnp nnp nnp nnp cd,0.0012313222,POS
+CHAR: e a,0.0012305762,CHAR
+CHAR:  bu,0.0012276757,CHAR
+POS: to vb nn,0.001220403,POS
+POS: vbg dt nn,0.0012179528,POS
+POS: in jj nn nns,0.0012052682,POS
+POS: nns vbp nn,0.0012042411,POS
+POS: jj nnp nnp,0.0012020383,POS
+POS: vbg in dt,0.001195117,POS
+POS: jj nn in jj,0.0011909009,POS
+POS: dt nn dt,0.001190531,POS
+CHAR: n a,0.0011833378,CHAR
+CHAR: ou,0.0011771717,CHAR
+CHAR: cti,0.0011771042,CHAR
+CHAR:  o,0.0011762737,CHAR
+CHAR: an ,0.0011735366,CHAR
+CHAR: ona,0.0011724742,CHAR
+CHAR: d a,0.0011692947,CHAR
+POS: nnp nnp nn in,0.0011669942,POS
+CHAR: nt ,0.0011646403,CHAR
+CHAR: e o,0.0011587217,CHAR
+CHAR: e m,0.0011543653,CHAR
+POS: jj nn nn nnp nnp,0.0011540919,POS
+WORD: help you with,0.0011530836,WORD
+CHAR: si,0.0011502929,CHAR
+POS: jj nn to,0.0011493211,POS
+CHAR:  - ,0.0011483917,CHAR
+POS: vbn to vb,0.0011473839,POS
+POS: nn md vb,0.0011390836,POS
+CHAR:  li,0.0011379474,CHAR
+POS: nn nnp in,0.0011368304,POS
+CHAR: wit,0.0011366109,CHAR
+CHAR: e i,0.0011353069,CHAR
+CHAR:  mo,0.001129995,CHAR
+CHAR: me ,0.0011290133,CHAR
+CHAR:  be,0.0011265829,CHAR
+CHAR: rn,0.0011243979,CHAR
+CHAR:  so,0.0011221326,CHAR
+POS: nnp nn nn nnp,0.0011180888,POS
+POS: nnp nnp cd nnp nnp,0.0011164477,POS
+CHAR:  is,0.0011142794,CHAR
+CHAR: if,0.0011141624,CHAR
+CHAR: et,0.0011134099,CHAR
+POS: nnp nnp in nnp nnp,0.0011108327,POS
+POS: nn in jj,0.001109225,POS
+CHAR: es ,0.0011092045,CHAR
+CHAR:  pe,0.0011013243,CHAR
+CHAR: y ,0.001098511,CHAR
+CHAR: ----,0.0010972023,CHAR
+CHAR: ag,0.0010963953,CHAR
+CHAR: ith,0.001094579,CHAR
+POS: nn vbz dt nn,0.0010915204,POS
+CHAR: ## ,0.0010884273,CHAR
+CHAR: for ,0.0010878827,CHAR
+CHAR: lly,0.0010848525,CHAR
+CHAR: ant,0.0010831461,CHAR
+POS: nns in dt,0.001081145,POS
+CHAR: ng,0.0010801769,CHAR
+CHAR: ra,0.0010774243,CHAR
+CHAR: i ,0.0010765509,CHAR
+CHAR: u ,0.0010709208,CHAR
+CHAR: cr,0.0010701931,CHAR
+CHAR:  f,0.0010642394,CHAR
+CHAR: oc,0.0010638927,CHAR
+CHAR: en ,0.0010637583,CHAR
+POS: to vb jj,0.0010637033,POS
+CHAR: nti,0.0010600834,CHAR
+CHAR: sta,0.0010599428,CHAR
+POS: nnp nnp nnp nn,0.0010598631,POS
+POS: nn nnp nn,0.0010576345,POS
+CHAR: tin,0.0010564581,CHAR
+CHAR: ist,0.0010475551,CHAR
+CHAR:  a,0.0010468117,CHAR
+POS: jj nn nn,0.0010447856,POS
+POS: nn nnp vbz,0.0010424292,POS
+POS: jj nn vbg,0.0010381044,POS
+CHAR:  #,0.0010347138,CHAR
+CHAR: s t,0.001029989,CHAR
+CHAR: ste,0.0010291238,CHAR
+CHAR: s.,0.001027474,CHAR
+POS: dt jj nn,0.0010269012,POS
+POS: nnp nnp nnp vbz,0.0010252697,POS
+POS: nn vbg dt,0.0010248414,POS
+POS: jj nns vbp,0.0010234113,POS
+POS: nn cc nn,0.0010113574,POS
+CHAR: fo,0.0010105096,CHAR
+CHAR: rs,0.0010020754,CHAR
+POS: jj nn cc jj,0.0010020497,POS
+CHAR:  for,0.0009983818,CHAR
+CHAR:  i,0.0009961739,CHAR
+POS: prp vbp rb,0.000995475,POS
+POS: nn nn nnp,0.000995333,POS
+CHAR: do,0.0009935666,CHAR
+POS: nn nn rb,0.0009903623,POS
+CHAR: as ,0.0009891129,CHAR
+CHAR:  ch,0.0009889104,CHAR
+POS: nn nn cd,0.0009868001,POS
+CHAR: h ,0.00098632,CHAR
+CHAR: bo,0.000984421,CHAR
+CHAR: pl,0.0009842409,CHAR
+CHAR: le,0.0009799681,CHAR
+CHAR: st ,0.0009794142,CHAR
+"CHAR: s,",0.0009787615,CHAR
+CHAR: ru,0.0009782952,CHAR
+CHAR: ts ,0.00097514957,CHAR
+POS: nn cc jj nns,0.0009737655,POS
+CHAR: wo,0.0009734725,CHAR
+CHAR:  or ,0.00096931215,CHAR
+CHAR: as,0.00096858863,CHAR
+CHAR:  g,0.00096697785,CHAR
+CHAR:  se,0.0009640854,CHAR
+CHAR: hat,0.00095755694,CHAR
+CHAR: can,0.0009474081,CHAR
+CHAR: - *,0.0009473529,CHAR
+POS: dt nn nn,0.0009446701,POS
+CHAR: la,0.0009431934,CHAR
+POS: jj nn cc nn,0.0009417182,POS
+CHAR: al,0.0009381192,CHAR
+CHAR:  p,0.00093731476,CHAR
+CHAR: ight,0.000931508,CHAR
+POS: to dt nn,0.000930774,POS
+CHAR: s o,0.0009298632,CHAR
+POS: prp nn in,0.00092878996,POS
+CHAR: ul,0.00092830067,CHAR
+CHAR: ht,0.00092533126,CHAR
+CHAR: at,0.0009253095,CHAR
+CHAR:  h,0.00092395785,CHAR
+CHAR: il,0.00092155184,CHAR
+CHAR:  int,0.0009195729,CHAR
+CHAR: is ,0.00091706327,CHAR
+CHAR: e ,0.00091507286,CHAR
+CHAR: st,0.0009131699,CHAR
+CHAR: lt,0.00091253687,CHAR
+POS: vbp dt nn,0.0009109649,POS
+POS: cc nn in,0.00091088115,POS
+POS: nnp nnp rb,0.0009101682,POS
+CHAR: tu,0.00090567186,CHAR
+CHAR:  v,0.000901896,CHAR
+CHAR: t ,0.00090162596,CHAR
+CHAR: ity,0.0009016212,CHAR
+CHAR:  co,0.00090044405,CHAR
+CHAR: tiv,0.00089985866,CHAR
+CHAR:  e,0.00089884514,CHAR
+CHAR: ay,0.0008983744,CHAR
+POS: nns vbp rb,0.00089693547,POS
+CHAR: od,0.00089587073,CHAR
+POS: nn in nnp nnp,0.0008949783,POS
+CHAR:  re,0.0008938007,CHAR
+CHAR: ut,0.0008930261,CHAR
+CHAR: fr,0.0008927338,CHAR
+"CHAR: , an",0.00089057314,CHAR
+CHAR:  m,0.0008896198,CHAR
+CHAR: tt,0.0008883287,CHAR
+POS: nn nn in,0.00088651397,POS
+POS: cd nn nnp,0.00088367175,POS
+POS: nns jj nn,0.0008812636,POS
+CHAR: ep,0.0008790698,CHAR
+POS: in jj nn,0.0008782643,POS
+POS: nnp nnp nn,0.0008776374,POS
+CHAR: po,0.00087458605,CHAR
+CHAR: op,0.0008739456,CHAR
+POS: dt nn rb,0.00087296613,POS
+POS: nns jj nns,0.00087242795,POS
+CHAR: wh,0.0008712922,CHAR
+CHAR:  com,0.00087111746,CHAR
+POS: in prp vbp,0.00087105756,POS
+POS: dt nn in,0.00087043527,POS
+CHAR: es,0.00086961215,CHAR
+CHAR: lin,0.0008690641,CHAR
+POS: nn nn nn nnp,0.00086876715,POS
+POS: vbz dt nn in,0.00086551614,POS
+CHAR: s. ,0.0008624863,CHAR
+CHAR: igh,0.00086202926,CHAR
+POS: nns in jj nn,0.0008594065,POS
+CHAR: fic,0.0008589401,CHAR
+CHAR: ar,0.0008586013,CHAR
+CHAR:  con,0.0008556863,CHAR
+CHAR: o ,0.00085529406,CHAR
+POS: jj nn nnp nn,0.0008550655,POS
+CHAR: ver,0.0008550322,CHAR
+POS: jj nn nn in,0.00085473154,POS
+CHAR: e p,0.00085456914,CHAR
+CHAR: our,0.0008529357,CHAR
+CHAR: av,0.0008524556,CHAR
+POS: vbg jj nns,0.0008487495,POS
+POS: vb prp nn,0.00084716367,POS
+CHAR:  wi,0.0008459552,CHAR
+CHAR:  and,0.00084533973,CHAR
+CHAR: ba,0.00084410293,CHAR
+POS: nn jj nn,0.00083782297,POS
+CHAR: am,0.0008368055,CHAR
+CHAR: ce,0.0008349841,CHAR
+POS: nnp nnp nnp nnp,0.00083497574,POS
+CHAR: de,0.00083371805,CHAR
+CHAR: ta,0.000833362,CHAR
+CHAR: tion,0.00082917116,CHAR
+POS: prp vbp jj,0.0008280751,POS
+CHAR:  a ,0.00082654535,CHAR
+CHAR: ic,0.00082653656,CHAR
+CHAR:  ha,0.00082439836,CHAR
+POS: nnp nn nnp nnp,0.00082039717,POS
+CHAR: for,0.00082027266,CHAR
+CHAR: ls,0.00081587624,CHAR
+CHAR: nal,0.0008138764,CHAR
+POS: nnp nnp prp,0.0008122456,POS
+WORD: here are some,0.0008115042,WORD
+CHAR: ly,0.00081004703,CHAR
+POS: md vb dt,0.00080950116,POS
+POS: in dt nn,0.0008082942,POS
+CHAR: ie,0.00080637995,CHAR
+CHAR:  sp,0.0008062959,CHAR
+POS: nnp dt nn,0.00080587465,POS
+POS: nn jj jj nn,0.0008050257,POS
+POS: jj nns nnp,0.0008046932,POS
+CHAR: du,0.00080371974,CHAR
+POS: nnp nnp in nnp,0.00080329215,POS
+CHAR: en,0.0008010025,CHAR
+CHAR: ll,0.0008002613,CHAR
+POS: prp vbp vbg,0.0007984807,POS
+CHAR:  d,0.00079836574,CHAR
+POS: in prp jj,0.00079786096,POS
+POS: nns cc jj nns,0.0007975085,POS
+CHAR: ear,0.0007865822,CHAR
+WORD: be happy to,0.0007857393,WORD
+CHAR: pi,0.00078418426,CHAR
+CHAR: wi,0.000783757,CHAR
+POS: nn nn vbz,0.0007831758,POS
+POS: nnp nnp nnp cc,0.0007800179,POS
+POS: jj nn cd vb,0.0007788211,POS
+CHAR: mo,0.000775749,CHAR
+CHAR: ck,0.00077244354,CHAR
+CHAR: el,0.00076996046,CHAR
+POS: rb vbn in,0.00076918496,POS
+CHAR: or ,0.0007655974,CHAR
+CHAR: e c,0.0007598078,CHAR
+POS: in nn nn,0.000757613,POS
+POS: vbz jj jj,0.0007570389,POS
+CHAR: er,0.00075695134,CHAR
+POS: dt nn nnp,0.0007560564,POS
+CHAR: ment,0.00075069454,CHAR
+POS: nn in nn,0.0007495145,POS
+"CHAR: , a",0.0007480465,CHAR
+CHAR: act,0.0007464777,CHAR
+POS: jj jj nn jj,0.00074535894,POS
+CHAR: to,0.0007425622,CHAR
+CHAR: rt,0.0007412013,CHAR
+POS: prp jj nn,0.00074042345,POS
+POS: jj jj nn,0.0007383759,POS
+CHAR: the,0.00073781743,CHAR
+POS: vbz dt jj nn,0.0007376259,POS
+POS: nn jj jj,0.00073750434,POS
+CHAR: use,0.00073555025,CHAR
+CHAR: ine,0.00073452824,CHAR
+CHAR: t t,0.0007324211,CHAR
+CHAR: rd,0.00073088094,CHAR
+CHAR: ke,0.00072865124,CHAR
+CHAR:  s,0.00072821503,CHAR
+POS: nn dt jj nn,0.0007254186,POS
+CHAR: th ,0.00072490145,CHAR
+CHAR: rea,0.0007240804,CHAR
+CHAR: ed,0.00072339206,CHAR
+CHAR:  ex,0.0007204881,CHAR
+CHAR: her,0.000719909,CHAR
+CHAR: um,0.0007196008,CHAR
+CHAR: nc,0.0007187937,CHAR
+CHAR: te ,0.0007181129,CHAR
+WORD: if you need,0.00071755546,WORD
+CHAR: it,0.00071748043,CHAR
+CHAR: of ,0.0007122048,CHAR
+POS: nn nns cc,0.0007115593,POS
+CHAR: su,0.00070972345,CHAR
+CHAR: ing,0.0007093647,CHAR
+CHAR: he,0.0007077999,CHAR
+CHAR:  tha,0.0007070981,CHAR
+POS: jj nns rb,0.00070665474,POS
+POS: nnp nnp nn nnp nnp,0.0007066165,POS
+POS: prp nn nn,0.00070599624,POS
+POS: jj jj nn nnp nnp,0.0007047881,POS
+CHAR: ry,0.000704776,CHAR
+POS: vbz dt jj nn in,0.0006997948,POS
+CHAR: qu,0.0006997737,CHAR
+POS: nnp jj nn nnp,0.00069734134,POS
+POS: jj nnp jj,0.0006959418,POS
+CHAR: d ,0.0006949326,CHAR
+POS: nnp nnp nnp nnp jj,0.0006946445,POS
+POS: cc jj nn,0.0006934168,POS
+POS: dt jj nn in,0.00069068995,POS
+POS: in dt jj nn,0.00069028814,POS
+CHAR: it ,0.00068955484,CHAR
+CHAR:  t,0.00068689825,CHAR
+CHAR: nd ,0.0006863292,CHAR
+POS: cd vb jj nnp,0.00068462075,POS
+CHAR:  po,0.0006843261,CHAR
+POS: nn nnp jj,0.0006839798,POS
+CHAR: ec,0.0006830942,CHAR
+CHAR: ing ,0.00068180927,CHAR
+CHAR: tra,0.0006813806,CHAR
+CHAR: ld,0.00068100845,CHAR
+CHAR: mi,0.00068011513,CHAR
+POS: cd nnp nnp nnp,0.0006792205,POS
+POS: nnp nnp nnp nnp nnp,0.00067906594,POS
+CHAR: e s,0.0006760303,CHAR
+POS: nns jj jj,0.0006757272,POS
+CHAR: pp,0.00067469815,CHAR
+CHAR: vi,0.00067389285,CHAR
+CHAR: ho,0.00067229476,CHAR
+CHAR:  he,0.0006697611,CHAR
+CHAR:  b,0.0006696503,CHAR
+POS: nn cd vb jj,0.0006694114,POS
+POS: nnp nn nn nn,0.0006691894,POS
+POS: nn nn jj nn,0.0006689581,POS
+CHAR: d t,0.0006666692,CHAR
+CHAR: ot,0.000665786,CHAR
+CHAR: th,0.00066465355,CHAR
+CHAR: va,0.0006633888,CHAR
+POS: nnp cd nn,0.0006621872,POS
+CHAR: ri,0.0006614439,CHAR
+CHAR: uc,0.0006605852,CHAR
+POS: vb jj nnp nnp,0.00066020945,POS
+POS: nns nn nnp,0.0006595102,POS
+CHAR: l ,0.0006558446,CHAR
+POS: dt jj nn nn,0.0006557042,POS
+CHAR: tr,0.00065324845,CHAR
+CHAR:  pro,0.00065265025,CHAR
+CHAR: thi,0.0006518402,CHAR
+CHAR: or,0.0006465755,CHAR
+CHAR: ap,0.0006456401,CHAR
+POS: nn nns nnp,0.00064377143,POS
+CHAR: n ,0.0006427021,CHAR
+CHAR: se,0.00064224546,CHAR
+CHAR: nte,0.0006401512,CHAR
+CHAR:  le,0.0006392902,CHAR
+CHAR: tic,0.0006381572,CHAR
+WORD: be happy to help,0.0006374032,WORD
+POS: jj in jj,0.00063637126,POS
+WORD: if you re,0.000635674,WORD
+"CHAR: e,",0.00063393463,CHAR
+POS: vb nnp nnp,0.0006332536,POS
+POS: nnp nn nnp,0.0006329999,POS
+CHAR: ) ,0.0006307477,CHAR
+CHAR: li,0.0006290006,CHAR
+CHAR:  l,0.00062878896,CHAR
+POS: to vb dt nn,0.00062800717,POS
+POS: nnp nnp nnp nnp nn,0.00062665617,POS
+POS: nn in nnp,0.00062661903,POS
+CHAR: nce,0.0006262316,CHAR
+CHAR:  pa,0.0006242125,CHAR
+POS: in nn cc,0.000623318,POS
+CHAR: ns,0.00062164606,CHAR
+CHAR: sh,0.0006216349,CHAR
+CHAR: ci,0.0006205142,CHAR
+CHAR:  ma,0.00061946287,CHAR
+CHAR: we,0.00061794627,CHAR
+CHAR:  yo,0.00061546784,CHAR
+CHAR: ting,0.00061418064,CHAR
+POS: nn nn vbg,0.0006102374,POS
+CHAR:  tr,0.000607284,CHAR
+CHAR: ua,0.00060465606,CHAR
+CHAR: cu,0.0006037431,CHAR
+POS: nns in vbg,0.0006036477,POS
+CHAR: are,0.00060341303,CHAR
+POS: jj nn in dt,0.00060177164,POS
+POS: nnp nnp nnp cd,0.00060058373,POS
+POS: jj nn in nn,0.0005975635,POS
+CHAR: ga,0.0005955827,CHAR
+POS: nns in prp,0.0005952854,POS
+CHAR: ial,0.00059519784,CHAR
+CHAR:  pr,0.0005939129,CHAR
+CHAR: ces,0.00058947795,CHAR
+CHAR: id,0.000586183,CHAR
+CHAR:  de,0.0005858302,CHAR
+CHAR: im,0.00058178446,CHAR
+CHAR: in ,0.000581663,CHAR
+POS: cd jj jj,0.0005797444,POS
+CHAR: pa,0.0005775499,CHAR
+POS: to vb prp,0.00057677686,POS
+POS: nnp nnp nn nns,0.00057610986,POS
+CHAR: cl,0.00057592936,CHAR
+CHAR: ma,0.0005758896,CHAR
+POS: nn in nn nn,0.00057409034,POS
+POS: nn nns in,0.0005735862,POS
+CHAR: da,0.0005734632,CHAR
+POS: cd nnp nnp,0.0005731503,POS
+POS: rb jj jj,0.0005704639,POS
+POS: nnp nnp cc nnp,0.00056986744,POS
+POS: nn nn cc jj,0.000569453,POS
+POS: nnp nns nn,0.00056907954,POS
+CHAR: ten,0.00056907727,CHAR
+CHAR: ea,0.0005666956,CHAR
+CHAR: age,0.0005665314,CHAR
+POS: vb jj nn,0.00056420395,POS
+POS: nnp nnp nn nn,0.0005594346,POS
+POS: nn nn in dt,0.0005590967,POS
+POS: to vb dt,0.0005581114,POS
+POS: nnp nnp nnp,0.00055802835,POS
+CHAR:  ca,0.0005571591,CHAR
+CHAR: ght,0.00055608124,CHAR
+CHAR: g ,0.00055377436,CHAR
+CHAR: rc,0.0005519879,CHAR
+CHAR: iti,0.0005498344,CHAR
+POS: jj nn in,0.0005488956,POS
+POS: jj nns in dt,0.0005467755,POS
+CHAR: ###,0.0005459448,CHAR
+CHAR: co,0.000545746,CHAR
+CHAR: me,0.0005452897,CHAR
+POS: nnp nnp nnp nn vbz,0.00054478616,POS
+POS: nn in jj nn,0.00054378744,POS
+CHAR: r ,0.00054375886,CHAR
+POS: nns nn nns,0.00054360455,POS
+CHAR: con,0.00054326816,CHAR
+CHAR: ca,0.00054248376,CHAR
+POS: nn nnp nnp in,0.00054066756,POS
+CHAR: gi,0.00054013374,CHAR
+CHAR: ed ,0.00053949753,CHAR
+POS: nnp vbd cd,0.0005392328,POS
+CHAR: e t,0.0005366561,CHAR
+CHAR: ds,0.00053587434,CHAR
+CHAR: ect,0.0005357277,CHAR
+POS: dt nn prp,0.00053398154,POS
+CHAR: so,0.00053233886,CHAR
+POS: rb in dt,0.0005297351,POS
+CHAR: os,0.00052951963,CHAR
+CHAR: un,0.0005282325,CHAR
+CHAR: bi,0.00052712904,CHAR
+CHAR: sp,0.0005252044,CHAR
+POS: vb dt jj,0.00052519713,POS
+CHAR: on ,0.0005249745,CHAR
+CHAR: re,0.00052487553,CHAR
+POS: nnp nn nn,0.0005237221,POS
+CHAR: pe,0.0005232269,CHAR
+CHAR: ac,0.0005227256,CHAR
+CHAR: in,0.0005203591,CHAR
+CHAR: ro,0.0005141837,CHAR
+CHAR: se ,0.00051394163,CHAR
+CHAR: mp,0.00051333784,CHAR
+CHAR:  no,0.00051063416,CHAR
+CHAR: tive,0.00050983566,CHAR
+CHAR: ide,0.0005094606,CHAR
+POS: in nns cc,0.00050937163,POS
+CHAR: str,0.00050870085,CHAR
+CHAR: no,0.00050761463,CHAR
+POS: nn nn nnp nnp nnp,0.0005073635,POS
+CHAR: om,0.00050563866,CHAR
+CHAR: ss,0.00050529186,CHAR
+POS: prp md vb,0.00050255173,POS
+CHAR: lo,0.00050023245,CHAR
+POS: nns nn nnp nnp,0.0005001903,POS
+POS: vbn in dt,0.0004985739,POS
+POS: nnp nnp nnp in,0.00049828837,POS
+CHAR: ch,0.00049735,CHAR
+POS: jj nn nnp,0.00049734645,POS
+CHAR: ef,0.00049618975,CHAR
+CHAR: t a,0.0004923693,CHAR
+POS: in dt nns,0.0004900067,POS
+CHAR:  to,0.0004878638,CHAR
+CHAR: ur,0.000487016,CHAR
+POS: in dt nnp,0.00048598147,POS
+CHAR: ions,0.00048548498,CHAR
+CHAR:  wh,0.00048451184,CHAR
+CHAR: bl,0.00048444542,CHAR
+CHAR: tur,0.00048351026,CHAR
+CHAR:  of,0.00048183344,CHAR
+CHAR: re ,0.00048007775,CHAR
+CHAR: er ,0.00047726833,CHAR
+CHAR: em,0.00047720934,CHAR
+POS: in nnp cc,0.00047674077,POS
+POS: nnp nnp vbd,0.00047543604,POS
+POS: jj nnp nn nnp,0.0004733382,POS
+POS: jj nnp nnp nnp nnp,0.0004729237,POS
+POS: jj nn cd vb jj,0.00047142815,POS
+CHAR: ts,0.00047104617,CHAR
+CHAR: :*,0.0004694992,CHAR
+CHAR: int,0.00046844178,CHAR
+POS: dt jj nns,0.000466364,POS
+POS: nn vbz vbn,0.00046547398,POS
+POS: nnp nn cc,0.00046509053,POS
+CHAR: al ,0.0004646876,CHAR
+POS: in nnp nnp,0.00046294337,POS
+POS: nnp jj nn,0.0004619667,POS
+CHAR: at ,0.00045887154,CHAR
+POS: nns vbp jj,0.00045858294,POS
+CHAR:  you,0.00045488882,CHAR
+POS: nnp jj nnp nnp nnp,0.0004517892,POS
+POS: vbn in nn,0.00045088326,POS
+POS: in dt jj nn in,0.00045028972,POS
+POS: nn nn nnp nn,0.0004502861,POS
+POS: nnp in nnp,0.0004450315,POS
+CHAR: ov,0.0004444272,CHAR
+POS: in dt nn in,0.00043795496,POS
+POS: cc nnp nnp nnp nnp,0.00043606476,POS
+CHAR: a ,0.00043155914,CHAR
+CHAR:  u,0.000430846,CHAR
+POS: rb vbz dt,0.00042856776,POS
+POS: jj to vb,0.00042520935,POS
+CHAR:  me,0.0004194051,CHAR
+CHAR: ha,0.00041928334,CHAR
+POS: in jj nn cc,0.0004188443,POS
+POS: nnp cc nnp,0.0004169999,POS
+CHAR: bu,0.00041611888,CHAR
+POS: jj nns nn,0.0004159283,POS
+POS: nn nnp nnp nnp,0.0004139136,POS
+POS: dt nns vbp,0.00041314933,POS
+POS: vbz dt jj,0.00041096515,POS
+POS: jj nns cc,0.00040943458,POS
+CHAR: ure,0.00040719402,CHAR
+CHAR: ain,0.0004058764,CHAR
+CHAR: eg,0.00040452328,CHAR
+CHAR:  the,0.0004029308,CHAR
+POS: nn cc jj nn,0.00039704112,POS
+POS: nnp nn in,0.00039703338,POS
+POS: nn cc nnp,0.00039469788,POS
+CHAR: s i,0.00038806358,CHAR
+POS: jj nn cc,0.00038781352,POS
+CHAR: sc,0.0003874077,CHAR
+POS: vbz dt nn,0.00038614456,POS
+CHAR: yo,0.0003848162,CHAR
+CHAR: und,0.00038383724,CHAR
+CHAR: p ,0.00038291418,CHAR
+POS: jj nnp nn nn,0.0003826071,POS
+POS: nns nn nn,0.00038119138,POS
+CHAR: s th,0.0003801209,CHAR
+CHAR:  w,0.0003792185,CHAR
+CHAR: hi,0.0003774956,CHAR
+CHAR: us,0.00037732383,CHAR
+POS: nnp nnp cd,0.00037667085,POS
+POS: nnp jj nnp nnp,0.0003766449,POS
+CHAR: k ,0.00037477387,CHAR
+CHAR: ad,0.00037419278,CHAR
+CHAR: ve,0.00037401135,CHAR
+CHAR: ic ,0.00037008658,CHAR
+CHAR:  is ,0.00036963398,CHAR
+POS: cc jj jj,0.00036707614,POS
+CHAR: ui,0.00036619988,CHAR
+CHAR: ns ,0.00036487821,CHAR
+POS: nn cc vb,0.00036454128,POS
+POS: nnp nnp nn nn nnp,0.00035587052,POS
+CHAR: rs ,0.00035420238,CHAR
+POS: cc nn nn,0.00035412217,POS
+POS: nnp nnp in,0.00035081577,POS
+CHAR: man,0.00034778874,CHAR
+POS: nn jj nnp nnp nnp,0.00034660514,POS
+POS: jj nn jj,0.00034338734,POS
+CHAR: hat ,0.00033943748,CHAR
+POS: jj nn vbz,0.0003391299,POS
+POS: dt nn in nn,0.0003380483,POS
+POS: vb dt jj nn,0.00033790115,POS
+CHAR: s ,0.00033712052,CHAR
+CHAR: ty,0.0003292257,CHAR
+POS: nnp nnp nnp nn jj,0.00032885672,POS
+POS: nnp nnp vbz,0.00032218275,POS
+POS: nnp nnp nnp nn in,0.00032058475,POS
+POS: nn nn nn cc,0.000318536,POS
+CHAR: ai,0.00031710244,CHAR
+POS: jj nn rb,0.00031668544,POS
+CHAR: der,0.00031567033,CHAR
+CHAR: rm,0.0003152368,CHAR
+CHAR: ol,0.00031513753,CHAR
+POS: dt jj nnp,0.00031399765,POS
+CHAR: ons,0.00031365425,CHAR
+POS: nnp nnp nnp dt,0.00030915064,POS
+CHAR: ion,0.00030376675,CHAR
+CHAR: lu,0.00030270728,CHAR
+CHAR: ith ,0.00029747508,CHAR
+POS: nns in jj nns,0.00029675534,POS
+CHAR: wa,0.00029670016,CHAR
+CHAR: cal,0.00029238217,CHAR
+POS: nn cc nn in,0.00029234975,POS
+POS: nnp nn jj nn,0.00029143423,POS
+POS: nn nnp nnp nnp nnp,0.00028613358,POS
+CHAR: ig,0.00028427364,CHAR
+POS: jj in dt,0.00027463198,POS
+POS: prp vbp dt,0.00027424257,POS
+POS: in nnp nn,0.00026231937,POS
+POS: nnp nnp nnp jj,0.00026212726,POS
+POS: nn in dt jj nn,0.0002615447,POS
+CHAR: ent,0.0002604126,CHAR
+CHAR: res,0.00025686852,CHAR
+POS: nn vbz in,0.00025554578,POS
+CHAR: e f,0.00025361773,CHAR
+CHAR: n t,0.0002534375,CHAR
+POS: nnp nn vbz,0.00025101396,POS
+POS: nn in nns,0.00024108122,POS
+CHAR: ere,0.00023777252,CHAR
+POS: nnp nnp nnp nns,0.00023673224,POS
+POS: nn cc jj,0.0002334047,POS
+CHAR: his,0.00022791652,CHAR
+POS: vb jj nnp,0.00022713843,POS
+POS: jj nn nn nnp,0.00022185114,POS
+CHAR: pt,0.00021546299,CHAR
+POS: nnp nn jj nnp,0.00021260904,POS
+POS: vbp jj nns,0.00020884954,POS
+POS: jj nn jj nn,0.00020857452,POS
+POS: in dt jj nn nn,0.00020595055,POS
+POS: nnp in jj,0.00019951089,POS
+CHAR: sa,0.00019558282,CHAR
+CHAR:  r,0.00018927398,CHAR
+CHAR: era,0.000178836,CHAR
+CHAR: ove,0.00016965096,CHAR
+POS: nns cc nn,0.0001666229,POS
+POS: vbg nn nn,0.0001604098,POS
+CHAR: ent ,0.0001525464,CHAR
+CHAR:  y,0.00015048137,CHAR
+CHAR:  in ,0.00013812484,CHAR
+POS: nnp jj jj,0.00013701506,POS
+POS: nn nnp nnp nn,0.00013200138,POS
+CHAR: ty ,0.00012883096,CHAR
+POS: nnp nnp nnp nnp in,0.000117465235,POS
+POS: cd nn nn,0.0001093812,POS
+POS: nn jj nnp nnp,0.00010686531,POS
+POS: vb dt nn in,9.707631e-05,POS
+POS: in jj jj,8.258572e-05,POS
+POS: nnp cc nnp nnp nnp,7.0734925e-05,POS
+POS: nns in nnp nnp,7.000733e-05,POS
+POS: vb dt nn,6.258163e-05,POS
+POS: nns nn jj,4.9601982e-05,POS
+CHAR: ue,4.324524e-05,CHAR
+POS: nns in nnp,3.2375094e-05,POS
+POS: nn in dt nn,2.2576034e-05,POS
+CHAR: ter,1.3027297e-05,CHAR
+CHAR: men,1.1738782e-05,CHAR
+POS: nnp nnp jj nnp,0.0,POS
+POS: nnp nnp jj nnp nnp,0.0,POS
+POS: nnp nnp jj nn,0.0,POS
+CHAR: | ,0.0,CHAR
+POS: nnp nnp nn jj nnp,0.0,POS
+POS: vbn in jj,0.0,POS
+POS: nnp nnp in dt,0.0,POS
+POS: vbn in nnp,0.0,POS
+POS: vbp dt jj,0.0,POS
+POS: vbp jj nn,0.0,POS
+POS: nnp nnp jj,0.0,POS
+POS: vbp jj nnp,0.0,POS
+POS: nnp nnp dt,0.0,POS
+POS: vbz jj nn,0.0,POS
+POS: nnp nnp cd nnp,0.0,POS
+POS: vbz jj nnp,0.0,POS
+POS: nnp nnp cc nnp nnp,0.0,POS
+POS: nnp nn nns,0.0,POS
+POS: nnp nn nnp nnp nnp,0.0,POS
+POS: nnp nn nnp nn,0.0,POS
+POS: nnp nn nn nnp nnp,0.0,POS
+POS: vbz nnp nnp,0.0,POS
+POS: vbg nn in,0.0,POS
+POS: nnp nn nn in,0.0,POS
+POS: vbg jj nn,0.0,POS
+POS: nnp to vb,0.0,POS
+POS: nns nnp nnp,0.0,POS
+POS: nnp nnp vbd cd,0.0,POS
+POS: nnp nnp vbg,0.0,POS
+POS: nnp nnp vbp,0.0,POS
+POS: nns md vb,0.0,POS
+POS: nns jj nnp,0.0,POS
+POS: nnp nns vbp,0.0,POS
+POS: nnp vbp jj,0.0,POS
+POS: nnp nnp nnp vbp,0.0,POS
+POS: nns in dt nn,0.0,POS
+POS: nns cd vb jj nnp,0.0,POS
+POS: nnp vbz dt,0.0,POS
+POS: nns cc jj,0.0,POS
+POS: nns cd vb jj,0.0,POS
+POS: nns cd vb,0.0,POS
+POS: nns cc nns,0.0,POS
+POS: nnp nnp nns,0.0,POS
+POS: nnp nnp nnp vbd,0.0,POS
+POS: vbg dt jj nn,0.0,POS
+POS: to vb in,0.0,POS
+POS: vbg dt jj,0.0,POS
+POS: nnp nnp nn vbz,0.0,POS
+POS: nnp nnp nnp cc nnp,0.0,POS
+POS: nnp nnp nnp in nnp,0.0,POS
+POS: nnp nnp nnp jj nn,0.0,POS
+POS: vb jj jj,0.0,POS
+POS: nnp nnp nnp jj nnp,0.0,POS
+POS: rb jj nns,0.0,POS
+POS: nns nnp nnp nnp,0.0,POS
+POS: nnp nnp nnp nn nnp,0.0,POS
+POS: nnp nnp nnp nnp cc,0.0,POS
+POS: rb jj nn,0.0,POS
+POS: prp vbz jj,0.0,POS
+POS: nnp nnp nnp nnp vbd,0.0,POS
+POS: nnp nnp nnp nnp vbz,0.0,POS
+POS: nns to vb,0.0,POS
+POS: vbd dt nn,0.0,POS
+POS: nn nns jj,0.0,POS
+POS: nnp nn cd,0.0,POS
+POS: cc nnp nn,0.0,POS
+POS: in vbg dt,0.0,POS
+POS: in vbg jj,0.0,POS
+POS: jj cc jj nn,0.0,POS
+POS: jj jj jj,0.0,POS
+POS: jj jj nn in,0.0,POS
+POS: jj jj nn nn,0.0,POS
+POS: jj jj nn nnp,0.0,POS
+POS: jj jj nnp nnp nnp,0.0,POS
+POS: jj jj nns,0.0,POS
+POS: jj nn in dt nn,0.0,POS
+POS: jj nn in nnp,0.0,POS
+POS: jj nn jj nnp,0.0,POS
+POS: nnp jj nns,0.0,POS
+POS: jj nn jj nnp nnp,0.0,POS
+POS: jj nn nn cc,0.0,POS
+POS: jj nn nn nn,0.0,POS
+POS: jj nn nnp nnp nnp,0.0,POS
+POS: jj nn prp,0.0,POS
+POS: jj nnp in,0.0,POS
+POS: jj nnp nn,0.0,POS
+POS: cc nn nns,0.0,POS
+POS: jj nnp nnp nn,0.0,POS
+POS: jj nnp nns,0.0,POS
+POS: jj nns in jj,0.0,POS
+POS: cc nnp nnp nnp,0.0,POS
+POS: in nns in,0.0,POS
+POS: in nnp nnp nnp nnp,0.0,POS
+POS: in nn nns,0.0,POS
+POS: cd nn jj,0.0,POS
+POS: cd nnp nnp nnp nnp,0.0,POS
+POS: cd vb jj nnp nnp,0.0,POS
+POS: dt jj jj,0.0,POS
+CHAR: with,0.0,CHAR
+POS: dt jj nn cc,0.0,POS
+POS: dt jj nn in dt,0.0,POS
+POS: dt nn in dt nn,0.0,POS
+POS: dt nn in jj,0.0,POS
+POS: dt nn jj,0.0,POS
+POS: cd jj nnp,0.0,POS
+POS: dt nn vbz,0.0,POS
+POS: dt nnp nn,0.0,POS
+POS: dt nnp nnp nnp,0.0,POS
+POS: dt nnp nnp nnp nnp,0.0,POS
+POS: dt nns in,0.0,POS
+POS: in dt jj,0.0,POS
+POS: in dt nnp nnp,0.0,POS
+POS: in jj nn nn,0.0,POS
+POS: in jj nnp,0.0,POS
+POS: in jj nns,0.0,POS
+POS: in nn cc nn,0.0,POS
+POS: in nn jj,0.0,POS
+POS: jj nns in nn,0.0,POS
+POS: jj nns jj,0.0,POS
+POS: md rb vb,0.0,POS
+POS: nn nn nnp nnp,0.0,POS
+POS: nn nn prp,0.0,POS
+POS: nn nnp nnp nnp nn,0.0,POS
+POS: nn nns vbp,0.0,POS
+POS: nn prp vbz,0.0,POS
+POS: nn rb in,0.0,POS
+POS: nn vbg nn,0.0,POS
+POS: nn vbn in,0.0,POS
+POS: nn vbz cd,0.0,POS
+POS: nn vbz dt jj,0.0,POS
+POS: nn vbz dt jj nn,0.0,POS
+POS: nnp cc jj,0.0,POS
+POS: nnp cc nnp nn,0.0,POS
+POS: nnp cd nnp,0.0,POS
+POS: nnp cd nnp nnp,0.0,POS
+POS: cc dt nn,0.0,POS
+POS: nnp cd vb,0.0,POS
+POS: nnp cd vb jj,0.0,POS
+POS: nnp dt jj,0.0,POS
+POS: nnp dt nnp,0.0,POS
+POS: nnp in nn,0.0,POS
+POS: nnp in nnp nnp nnp,0.0,POS
+POS: nnp jj nn nn,0.0,POS
+POS: nnp jj nnp,0.0,POS
+POS: nn nn nns,0.0,POS
+POS: nn nn nn nn nn,0.0,POS
+POS: md vb jj,0.0,POS
+POS: nn nn nn nn,0.0,POS
+POS: nn cc dt,0.0,POS
+POS: nn cc jj nnp,0.0,POS
+POS: cc jj nnp,0.0,POS
+POS: nn cc jj nnp nnp,0.0,POS
+POS: nn cc nn nn,0.0,POS
+POS: nn cd vb,0.0,POS
+POS: nn dt jj,0.0,POS
+POS: nn dt nn,0.0,POS
+POS: nn in dt nnp,0.0,POS
+POS: nn in jj nns,0.0,POS
+POS: nn in nn cc,0.0,POS
+POS: nn in prp,0.0,POS
+POS: nn jj nn nn,0.0,POS
+POS: nn jj nn nnp,0.0,POS
+POS: nn jj nnp nn,0.0,POS
+POS: nn nn cc,0.0,POS
+POS: nn nn cc nn,0.0,POS
+POS: nn nn in jj,0.0,POS
+POS: nn nn in nn,0.0,POS
+POS: nn nn jj nnp,0.0,POS
+POS: nn nn jj nnp nnp,0.0,POS
+POS: nn nn nn,0.0,POS
+POS: nn nn nn jj,0.0,POS
+POS: dt jj jj nn,0.0,POS
+WORD: about what you,0.0,WORD
+CHAR: ut ,0.0,CHAR
+WORD: in the way,0.0,WORD
+WORD: in recent years,0.0,WORD
+WORD: in summary the,0.0,WORD
+WORD: in terms of,0.0,WORD
+WORD: in the air,0.0,WORD
+WORD: in the context,0.0,WORD
+WORD: in the context of,0.0,WORD
+WORD: in the game,0.0,WORD
+WORD: in the late,0.0,WORD
+WORD: in the morning,0.0,WORD
+WORD: in the past,0.0,WORD
+WORD: in the same,0.0,WORD
+WORD: in the uk,0.0,WORD
+WORD: in the us,0.0,WORD
+WORD: in the world,0.0,WORD
+WORD: in front of,0.0,WORD
+WORD: in this case,0.0,WORD
+WORD: in way that,0.0,WORD
+WORD: information about the,0.0,WORD
+WORD: inspired by the,0.0,WORD
+WORD: into living breathing,0.0,WORD
+WORD: is based on,0.0,WORD
+WORD: is complex and,0.0,WORD
+WORD: is crucial for,0.0,WORD
+WORD: is essential for,0.0,WORD
+WORD: is known for,0.0,WORD
+WORD: is not just,0.0,WORD
+WORD: is often the,0.0,WORD
+WORD: is one of,0.0,WORD
+WORD: in real time,0.0,WORD
+WORD: if you want to,0.0,WORD
+WORD: most of the,0.0,WORD
+WORD: if they are,0.0,WORD
+WORD: here breakdown of its,0.0,WORD
+WORD: here breakdown of the,0.0,WORD
+WORD: here breakdown of what,0.0,WORD
+WORD: here breakdown of why,0.0,WORD
+WORD: here list of,0.0,WORD
+WORD: here step by,0.0,WORD
+WORD: here step by step,0.0,WORD
+WORD: here the breakdown,0.0,WORD
+WORD: here why it,0.0,WORD
+WORD: how do we,0.0,WORD
+WORD: how do you,0.0,WORD
+WORD: how it works,0.0,WORD
+WORD: how the business,0.0,WORD
+WORD: if this card,0.0,WORD
+WORD: if you want,0.0,WORD
+WORD: if you are,0.0,WORD
+WORD: if you can,0.0,WORD
+WORD: if you don,0.0,WORD
+WORD: if you have,0.0,WORD
+WORD: if you like,0.0,WORD
+WORD: if you like can,0.0,WORD
+WORD: if you like help,0.0,WORD
+WORD: if you like to,0.0,WORD
+WORD: if you re interested,0.0,WORD
+WORD: if you re interested in,0.0,WORD
+WORD: if you re looking,0.0,WORD
+WORD: if you re looking for,0.0,WORD
+WORD: if you ve,0.0,WORD
+WORD: is one of the,0.0,WORD
+WORD: is part of,0.0,WORD
+WORD: is the most,0.0,WORD
+WORD: may not be,0.0,WORD
+WORD: let me break down,0.0,WORD
+WORD: let me know if,0.0,WORD
+WORD: let me know what,0.0,WORD
+WORD: let me know your,0.0,WORD
+WORD: like me to,0.0,WORD
+WORD: like you re,0.0,WORD
+WORD: likely to be,0.0,WORD
+WORD: ll do my,0.0,WORD
+WORD: ll do my best,0.0,WORD
+WORD: ll do my best to,0.0,WORD
+WORD: ll help you,0.0,WORD
+WORD: ll need to,0.0,WORD
+WORD: located in the,0.0,WORD
+WORD: me break down,0.0,WORD
+WORD: it can be,0.0,WORD
+WORD: me know if,0.0,WORD
+WORD: me know if you,0.0,WORD
+WORD: me know if you like,0.0,WORD
+WORD: me know if you want,0.0,WORD
+WORD: me know the,0.0,WORD
+WORD: me know what,0.0,WORD
+WORD: me know your,0.0,WORD
+WORD: me to elaborate on any,0.0,WORD
+WORD: me to help,0.0,WORD
+WORD: me to help you,0.0,WORD
+WORD: might be more,0.0,WORD
+WORD: might not be,0.0,WORD
+WORD: more likely to,0.0,WORD
+WORD: let me break,0.0,WORD
+WORD: let break it down,0.0,WORD
+WORD: let break it,0.0,WORD
+WORD: less likely to,0.0,WORD
+WORD: it comes to,0.0,WORD
+WORD: it could be,0.0,WORD
+WORD: it does not,0.0,WORD
+WORD: it important to,0.0,WORD
+WORD: it is not,0.0,WORD
+WORD: it is the,0.0,WORD
+WORD: it might be,0.0,WORD
+WORD: it okay to,0.0,WORD
+WORD: it sounds like,0.0,WORD
+WORD: it was the,0.0,WORD
+WORD: it would be,0.0,WORD
+WORD: just let me,0.0,WORD
+WORD: just let me know,0.0,WORD
+WORD: key characteristics of,0.0,WORD
+WORD: key considerations for,0.0,WORD
+WORD: know if you like,0.0,WORD
+WORD: know if you need,0.0,WORD
+WORD: know if you want,0.0,WORD
+WORD: known as the,0.0,WORD
+WORD: known for its,0.0,WORD
+WORD: language models llms,0.0,WORD
+WORD: large language models,0.0,WORD
+WORD: large language models llms,0.0,WORD
+WORD: league of legends,0.0,WORD
+WORD: lens that generates,0.0,WORD
+WORD: lens that generates full,0.0,WORD
+WORD: lens that generates personalized,0.0,WORD
+WORD: here breakdown of,0.0,WORD
+WORD: here are the key,0.0,WORD
+WORD: here are the,0.0,WORD
+WORD: be prepared for,0.0,WORD
+WORD: associated with the,0.0,WORD
+WORD: at the end,0.0,WORD
+WORD: at the same,0.0,WORD
+WORD: at the same time,0.0,WORD
+WORD: at the time,0.0,WORD
+WORD: at the top,0.0,WORD
+WORD: back to the,0.0,WORD
+WORD: based on current,0.0,WORD
+WORD: based on the,0.0,WORD
+WORD: based on their,0.0,WORD
+WORD: based on your,0.0,WORD
+WORD: be able to,0.0,WORD
+WORD: be happy to help you,0.0,WORD
+WORD: be seen as,0.0,WORD
+WORD: can give you,0.0,WORD
+WORD: be used to,0.0,WORD
+WORD: break down the,0.0,WORD
+WORD: break it down,0.0,WORD
+WORD: break this down,0.0,WORD
+WORD: breakdown of how,0.0,WORD
+WORD: breakdown of its,0.0,WORD
+WORD: breakdown of the,0.0,WORD
+WORD: breakdown of what,0.0,WORD
+WORD: breakdown of why,0.0,WORD
+WORD: but cannot actually,0.0,WORD
+WORD: but cannot provide,0.0,WORD
+WORD: by step guide,0.0,WORD
+WORD: call to action,0.0,WORD
+WORD: as part of,0.0,WORD
+WORD: as of now,0.0,WORD
+WORD: as of mid,0.0,WORD
+WORD: as of 2025,0.0,WORD
+WORD: allows you to,0.0,WORD
+WORD: also known as,0.0,WORD
+WORD: an overview of,0.0,WORD
+WORD: and can be,0.0,WORD
+WORD: and can tailor,0.0,WORD
+WORD: and decision making,0.0,WORD
+WORD: and easy to,0.0,WORD
+WORD: and how to,0.0,WORD
+WORD: and lack of,0.0,WORD
+WORD: and long term,0.0,WORD
+WORD: and the ability,0.0,WORD
+WORD: and the ability to,0.0,WORD
+WORD: and you re,0.0,WORD
+WORD: any of these,0.0,WORD
+WORD: any specific aspect,0.0,WORD
+WORD: any specific aspect of,0.0,WORD
+WORD: apologize but cannot actually,0.0,WORD
+WORD: apologize but cannot provide,0.0,WORD
+WORD: are based on,0.0,WORD
+WORD: are designed to,0.0,WORD
+WORD: are part of,0.0,WORD
+WORD: are some key,0.0,WORD
+WORD: are some of,0.0,WORD
+WORD: are some of the,0.0,WORD
+WORD: are the key,0.0,WORD
+WORD: are the most,0.0,WORD
+WORD: as of 2024,0.0,WORD
+WORD: can be used,0.0,WORD
+WORD: can help with,0.0,WORD
+WORD: here are some of the,0.0,WORD
+WORD: for your specific,0.0,WORD
+WORD: even if it,0.0,WORD
+WORD: even if the,0.0,WORD
+WORD: feel free to,0.0,WORD
+WORD: focus on the,0.0,WORD
+WORD: focuses on the,0.0,WORD
+WORD: focusing on the,0.0,WORD
+WORD: for long term,0.0,WORD
+WORD: for real time,0.0,WORD
+WORD: for the first,0.0,WORD
+WORD: for the most,0.0,WORD
+WORD: for the most up,0.0,WORD
+WORD: for the most up to,0.0,WORD
+WORD: for the next,0.0,WORD
+WORD: frac vec vec,0.0,WORD
+WORD: can help you,0.0,WORD
+WORD: go to the,0.0,WORD
+WORD: goal is to,0.0,WORD
+WORD: happy to help,0.0,WORD
+WORD: happy to help you,0.0,WORD
+WORD: have access to,0.0,WORD
+WORD: help you create,0.0,WORD
+WORD: help you find,0.0,WORD
+WORD: help you understand,0.0,WORD
+WORD: here an overview,0.0,WORD
+WORD: here are few,0.0,WORD
+WORD: here are several,0.0,WORD
+WORD: here are some key,0.0,WORD
+WORD: here are some of,0.0,WORD
+WORD: especially in the,0.0,WORD
+WORD: especially if you,0.0,WORD
+WORD: end to end,0.0,WORD
+WORD: end of the,0.0,WORD
+WORD: can lead to,0.0,WORD
+WORD: can vary depending,0.0,WORD
+WORD: can vary depending on,0.0,WORD
+WORD: cc by sa,0.0,WORD
+WORD: coca cola cambodia,0.0,WORD
+WORD: could lead to,0.0,WORD
+WORD: could you please,0.0,WORD
+WORD: create an ai,0.0,WORD
+WORD: crucial role in,0.0,WORD
+WORD: depending on the,0.0,WORD
+WORD: depending on your,0.0,WORD
+WORD: depends entirely on,0.0,WORD
+WORD: depends on the,0.0,WORD
+WORD: depends on your,0.0,WORD
+WORD: design lens that,0.0,WORD
+WORD: designed to be,0.0,WORD
+WORD: do my best,0.0,WORD
+WORD: do my best to,0.0,WORD
+WORD: do you have,0.0,WORD
+WORD: don have to,0.0,WORD
+WORD: due to its,0.0,WORD
+WORD: due to the,0.0,WORD
+WORD: due to their,0.0,WORD
+WORD: elaborate on any of,0.0,WORD
+WORD: elaborate on any of these,0.0,WORD
+WORD: elaborate on any specific,0.0,WORD
+WORD: elaborate on any specific aspect,0.0,WORD
+WORD: more than just,0.0,WORD
+WORD: most up to,0.0,WORD
+CHAR: tor,0.0,CHAR
+WORD: why it great,0.0,WORD
+WORD: what kind of,0.0,WORD
+WORD: what to do,0.0,WORD
+WORD: what would you,0.0,WORD
+WORD: what you can,0.0,WORD
+WORD: what you need,0.0,WORD
+WORD: what you re,0.0,WORD
+WORD: when it comes to,0.0,WORD
+WORD: when with you,0.0,WORD
+WORD: where you can,0.0,WORD
+WORD: whether you re,0.0,WORD
+WORD: why did the,0.0,WORD
+WORD: why it cool,0.0,WORD
+WORD: why it fits,0.0,WORD
+WORD: why it matters,0.0,WORD
+WORD: what is the,0.0,WORD
+WORD: why it works,0.0,WORD
+WORD: why this works,0.0,WORD
+WORD: wide range of,0.0,WORD
+WORD: with focus on,0.0,WORD
+WORD: world war ii,0.0,WORD
+WORD: would need to,0.0,WORD
+WORD: would you be,0.0,WORD
+WORD: would you like help,0.0,WORD
+WORD: would you like me to,0.0,WORD
+WORD: would you like to,0.0,WORD
+WORD: you are not,0.0,WORD
+WORD: you can do,0.0,WORD
+WORD: you can find,0.0,WORD
+WORD: what it is,0.0,WORD
+WORD: what do you,0.0,WORD
+WORD: most up to date,0.0,WORD
+WORD: to focus on,0.0,WORD
+WORD: this is often,0.0,WORD
+WORD: this is the,0.0,WORD
+WORD: this is the most,0.0,WORD
+WORD: this is where,0.0,WORD
+WORD: this refers to,0.0,WORD
+WORD: to be direct,0.0,WORD
+WORD: to be helpful,0.0,WORD
+WORD: to date information,0.0,WORD
+WORD: to elaborate on,0.0,WORD
+WORD: to elaborate on any,0.0,WORD
+WORD: to elaborate on any of,0.0,WORD
+WORD: to elaborate on any specific,0.0,WORD
+WORD: to find the,0.0,WORD
+WORD: to help you,0.0,WORD
+WORD: what are the,0.0,WORD
+WORD: to help you with,0.0,WORD
+WORD: to note that,0.0,WORD
+WORD: to the same,0.0,WORD
+WORD: to understand the,0.0,WORD
+WORD: to your body,0.0,WORD
+WORD: understanding of the,0.0,WORD
+WORD: up to date,0.0,WORD
+WORD: up to date information,0.0,WORD
+WORD: vary depending on,0.0,WORD
+WORD: vec frac vec,0.0,WORD
+WORD: version of the,0.0,WORD
+WORD: want to be,0.0,WORD
+WORD: want to be direct,0.0,WORD
+WORD: you can use,0.0,WORD
+WORD: you don have,0.0,WORD
+WORD: you don have to,0.0,WORD
+CHAR: ia,0.0,CHAR
+WORD: your specific needs,0.0,WORD
+CHAR:  ar,0.0,CHAR
+CHAR:  en,0.0,CHAR
+CHAR:  fr,0.0,CHAR
+CHAR:  su,0.0,CHAR
+CHAR:  te,0.0,CHAR
+CHAR:  |,0.0,CHAR
+CHAR: ble,0.0,CHAR
+CHAR: ce ,0.0,CHAR
+CHAR: ev,0.0,CHAR
+CHAR: eve,0.0,CHAR
+CHAR: gr,0.0,CHAR
+WORD: aim to be,0.0,WORD
+CHAR: ies,0.0,CHAR
+WORD: you like can,0.0,WORD
+CHAR: io,0.0,CHAR
+CHAR: ion ,0.0,CHAR
+CHAR: ir,0.0,CHAR
+CHAR: iv,0.0,CHAR
+CHAR: ive ,0.0,CHAR
+CHAR: ki,0.0,CHAR
+CHAR: lit,0.0,CHAR
+CHAR: oo,0.0,CHAR
+CHAR: ore,0.0,CHAR
+CHAR: pre,0.0,CHAR
+CHAR: s a,0.0,CHAR
+CHAR: spe,0.0,CHAR
+CHAR: ted,0.0,CHAR
+WORD: you want to,0.0,WORD
+WORD: you ve got,0.0,WORD
+WORD: you tell me,0.0,WORD
+WORD: you re using,0.0,WORD
+WORD: you like help,0.0,WORD
+WORD: you like me,0.0,WORD
+WORD: you like me to,0.0,WORD
+WORD: you like me to elaborate,0.0,WORD
+WORD: you like this,0.0,WORD
+WORD: you like to,0.0,WORD
+WORD: you like to explore,0.0,WORD
+WORD: you ll need,0.0,WORD
+WORD: you ll need to,0.0,WORD
+WORD: you might be,0.0,WORD
+WORD: you need to,0.0,WORD
+WORD: you re asking about,0.0,WORD
+WORD: you re describing,0.0,WORD
+WORD: you re experiencing,0.0,WORD
+WORD: you re feeling,0.0,WORD
+WORD: you re in,0.0,WORD
+WORD: you re interested,0.0,WORD
+WORD: you re interested in,0.0,WORD
+WORD: you re looking,0.0,WORD
+WORD: you re looking for,0.0,WORD
+WORD: you re not,0.0,WORD
+WORD: you re not alone,0.0,WORD
+WORD: you re referring,0.0,WORD
+WORD: you re referring to,0.0,WORD
+WORD: you re still,0.0,WORD
+WORD: you re trying,0.0,WORD
+WORD: you re trying to,0.0,WORD
+WORD: this is crucial,0.0,WORD
+WORD: this is complex,0.0,WORD
+WORD: this is an,0.0,WORD
+WORD: recommend checking the,0.0,WORD
+WORD: out of the,0.0,WORD
+WORD: overview of the,0.0,WORD
+WORD: part of the,0.0,WORD
+WORD: please note that,0.0,WORD
+WORD: quality of life,0.0,WORD
+WORD: re asking about,0.0,WORD
+WORD: re interested in,0.0,WORD
+WORD: re looking for,0.0,WORD
+WORD: re not alone,0.0,WORD
+WORD: re referring to,0.0,WORD
+WORD: re trying to,0.0,WORD
+WORD: ready to help,0.0,WORD
+WORD: real time data,0.0,WORD
+WORD: refers to the,0.0,WORD
+WORD: that can be,0.0,WORD
+WORD: side by side,0.0,WORD
+WORD: since this is,0.0,WORD
+WORD: some of the,0.0,WORD
+WORD: some of the most,0.0,WORD
+WORD: sounds like you,0.0,WORD
+WORD: specific aspect of,0.0,WORD
+WORD: start with the,0.0,WORD
+WORD: step by step,0.0,WORD
+WORD: step by step guide,0.0,WORD
+WORD: summary of the,0.0,WORD
+WORD: tab a7 lite,0.0,WORD
+WORD: tailored to your,0.0,WORD
+WORD: tell me what,0.0,WORD
+WORD: or if you,0.0,WORD
+WORD: one of these,0.0,WORD
+WORD: one of the most,0.0,WORD
+WORD: one of the,0.0,WORD
+WORD: most up to date information,0.0,WORD
+WORD: my best to,0.0,WORD
+WORD: n_ text ph,0.0,WORD
+WORD: natural language processing,0.0,WORD
+WORD: nature of the,0.0,WORD
+WORD: need to be,0.0,WORD
+WORD: not just the,0.0,WORD
+WORD: of mid 2025,0.0,WORD
+WORD: of the best,0.0,WORD
+WORD: of the key,0.0,WORD
+WORD: of the most,0.0,WORD
+WORD: of the people,0.0,WORD
+WORD: of the same,0.0,WORD
+WORD: of the universe,0.0,WORD
+WORD: of the world,0.0,WORD
+WORD: often the most,0.0,WORD
+WORD: often used in,0.0,WORD
+WORD: on any of,0.0,WORD
+WORD: on any of these,0.0,WORD
+WORD: on any specific,0.0,WORD
+WORD: on any specific aspect,0.0,WORD
+WORD: on any specific aspect of,0.0,WORD
+WORD: on both sides,0.0,WORD
+WORD: on the context,0.0,WORD
+WORD: on the specific,0.0,WORD
+WORD: on what you,0.0,WORD
+WORD: on your specific,0.0,WORD
+WORD: thank you for,0.0,WORD
+WORD: that generates full,0.0,WORD
+WORD: this could be,0.0,WORD
+WORD: the risk of,0.0,WORD
+WORD: the most recent,0.0,WORD
+WORD: the most up,0.0,WORD
+WORD: the most up to,0.0,WORD
+WORD: the most up to date,0.0,WORD
+WORD: the nature of,0.0,WORD
+WORD: the need for,0.0,WORD
+WORD: the number of,0.0,WORD
+WORD: the potential for,0.0,WORD
+WORD: the power of,0.0,WORD
+WORD: the probability of,0.0,WORD
+WORD: the process of,0.0,WORD
+WORD: the rest of,0.0,WORD
+WORD: the rise of,0.0,WORD
+WORD: the role of,0.0,WORD
+WORD: that generates personalized,0.0,WORD
+WORD: the same time,0.0,WORD
+WORD: the type of,0.0,WORD
+WORD: the united states,0.0,WORD
+WORD: the use of,0.0,WORD
+WORD: the value of,0.0,WORD
+WORD: there are no,0.0,WORD
+WORD: there are several,0.0,WORD
+WORD: there is no,0.0,WORD
+WORD: there no single,0.0,WORD
+WORD: they are not,0.0,WORD
+WORD: think of it,0.0,WORD
+WORD: this can be,0.0,WORD
+WORD: this card is,0.0,WORD
+WORD: the most important,0.0,WORD
+WORD: the most effective,0.0,WORD
+WORD: the most current,0.0,WORD
+WORD: the most common,0.0,WORD
+WORD: that you re,0.0,WORD
+WORD: the ability to,0.0,WORD
+WORD: the act of,0.0,WORD
+WORD: the age of,0.0,WORD
+WORD: the company page,0.0,WORD
+WORD: the concept of,0.0,WORD
+WORD: the context of,0.0,WORD
+WORD: the cost of,0.0,WORD
+WORD: the development of,0.0,WORD
+WORD: the end of,0.0,WORD
+WORD: the end of the,0.0,WORD
+WORD: the federal reserve,0.0,WORD
+WORD: the fire and,0.0,WORD
+WORD: the first time,0.0,WORD
+WORD: the gap between,0.0,WORD
+WORD: the goal is,0.0,WORD
+WORD: the heart of,0.0,WORD
+WORD: the idea of,0.0,WORD
+WORD: the idea that,0.0,WORD
+WORD: the impact of,0.0,WORD
+WORD: the importance of,0.0,WORD
+WORD: the intersection of,0.0,WORD
+WORD: the key is,0.0,WORD
+WORD: the lack of,0.0,WORD
+WORD: the long term,0.0,WORD
+WORD: the loss of,0.0,WORD
+WORD: the most accurate,0.0,WORD
+POS: vbz rb jj,0.0,POS
