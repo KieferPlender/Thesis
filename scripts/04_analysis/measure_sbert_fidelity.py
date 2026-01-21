@@ -8,7 +8,7 @@ print("Loading SBERT model...")
 model = SentenceTransformer('all-MiniLM-L6-v2')
 
 print("Loading data...")
-with open('intervention_qwen_paraphrase.jsonl', 'r') as f:
+with open('data/processed/intervention_qwen_paraphrase.jsonl', 'r') as f:
     data = [json.loads(line) for line in f]
 
 print(f"Loaded {len(data)} paraphrased battles\n")
@@ -33,12 +33,12 @@ print(f"Total response pairs to compare: {total_responses}")
 
 # Compute embeddings
 print("\nComputing embeddings for Model A responses...")
-embeddings_orig_a = model.encode(originals_a, show_progress_bar=True, batch_size=32)
-embeddings_para_a = model.encode(paraphrased_a, show_progress_bar=True, batch_size=32)
+embeddings_orig_a = model.encode(originals_a, show_progress_bar=False, batch_size=32)
+embeddings_para_a = model.encode(paraphrased_a, show_progress_bar=False, batch_size=32)
 
 print("\nComputing embeddings for Model B responses...")
-embeddings_orig_b = model.encode(originals_b, show_progress_bar=True, batch_size=32)
-embeddings_para_b = model.encode(paraphrased_b, show_progress_bar=True, batch_size=32)
+embeddings_orig_b = model.encode(originals_b, show_progress_bar=False, batch_size=32)
+embeddings_para_b = model.encode(paraphrased_b, show_progress_bar=False, batch_size=32)
 
 # Compute cosine similarities
 print("\nComputing cosine similarities...")
@@ -86,27 +86,10 @@ print()
 print("Target: Mean similarity >= 0.80 (preserves meaning)")
 print(f"Result: {'✅ PASS' if mean_sim >= 0.80 else '⚠️ CAUTION' if mean_sim >= 0.70 else '❌ FAIL'}")
 
-# Find examples of low similarity
-if min_sim < 0.70:
-    print("\n" + "="*70)
-    print("LOW SIMILARITY EXAMPLES (< 0.70)")
-    print("="*70)
-    
-    low_indices_a = [i for i, s in enumerate(similarities_a) if s < 0.70]
-    low_indices_b = [i for i, s in enumerate(similarities_b) if s < 0.70]
-    
-    for i in low_indices_a[:3]:  # Show first 3
-        print(f"\nModel A - Similarity: {similarities_a[i]:.4f}")
-        print(f"Original: {originals_a[i][:150]}...")
-        print(f"Paraphrased: {paraphrased_a[i][:150]}...")
-    
-    for i in low_indices_b[:3]:  # Show first 3
-        print(f"\nModel B - Similarity: {similarities_b[i]:.4f}")
-        print(f"Original: {originals_b[i][:150]}...")
-        print(f"Paraphrased: {paraphrased_b[i][:150]}...")
 
 # Save results
-with open('sbert_semantic_fidelity_results.txt', 'w') as f:
+output_path = 'results/metrics/sbert_semantic_fidelity_results.txt'
+with open(output_path, 'w') as f:
     f.write("SEMANTIC FIDELITY RESULTS (SBERT)\n")
     f.write("="*70 + "\n")
     f.write(f"Mean similarity: {mean_sim:.4f}\n")
@@ -116,4 +99,4 @@ with open('sbert_semantic_fidelity_results.txt', 'w') as f:
     f.write(f"Max similarity: {max_sim:.4f}\n")
     f.write(f"\nResult: {'PASS' if mean_sim >= 0.80 else 'CAUTION' if mean_sim >= 0.70 else 'FAIL'}\n")
 
-print("\nResults saved to: sbert_semantic_fidelity_results.txt")
+print(f"\nResults saved to: {output_path}")
