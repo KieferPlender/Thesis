@@ -1,14 +1,7 @@
 """
 Generates publication-ready figures suitable for IEEE/ACM conference papers.
 
-Consolidates ALL plotting functionality. It replaces
-the following individual plot scripts that were previously in the root directory:
-- plot_baseline_spr.py
-- plot_intervention_spr.py
-- plot_classifier_accuracy_drop.py
-- plot_per_model_classifier_metrics.py
-- plot_per_model_intervention_effects.py
-- plots.py
+Consolidates ALL plotting functionality.
 
 All plots use:
 - Times New Roman / serif fonts (academic standard)
@@ -17,10 +10,10 @@ All plots use:
 - Color-blind friendly, high-contrast palette
 
 Usage:
-    python conference_plots.py              # Generate all plots
+    python scripts/06_reporting/conference_plots.py              # Generate all plots
     
 Output:
-    All plots are saved to the results/ directory as PNG files.
+    All plots are saved to the results/plots directory as PNG files.
 """
 
 import matplotlib.pyplot as plt
@@ -107,8 +100,18 @@ def plot_baseline_spr():
     """
     Horizontal bar chart showing baseline self-preference rates for each model.
     """
+    # Load data
+    data_path = f'{RESULTS_DIR}/metrics/spr_results.json'
+    if not os.path.exists(data_path):
+        print(f"⚠ Skipping baseline_self_preference: {data_path} not found")
+        return
+    
+    with open(data_path, 'r') as f:
+        data = json.load(f)
+    
+    baseline = data['Baseline']
     models = ['Claude-3.5-Haiku', 'ChatGPT-4o', 'DeepSeek-R1']
-    spr_values = [21.38, 54.33, 79.93]
+    spr_values = [baseline['claude'], baseline['chatgpt'], baseline['deepseek']]
     colors = [COLORS['claude'], COLORS['chatgpt'], COLORS['deepseek']]
     
     fig, ax = plt.subplots(figsize=(6, 3))
@@ -121,7 +124,7 @@ def plot_baseline_spr():
     # Add value labels
     for bar, value in zip(bars, spr_values):
         ax.text(value + 2, bar.get_y() + bar.get_height()/2, 
-                f'{value:.1f}%', va='center', ha='left', fontsize=12, fontweight='medium')
+                f'{value:.2f}%', va='center', ha='left', fontsize=12, fontweight='medium')
     
     plt.tight_layout()
     
@@ -138,12 +141,26 @@ def plot_intervention_spr():
     """
     Grouped horizontal bar chart showing SPR changes for each intervention per model.
     """
-    models = ['Claude-3.5-Haiku', 'ChatGPT-4o', 'DeepSeek-R1']
+    # Load data
+    data_path = f'{RESULTS_DIR}/metrics/spr_results.json'
+    if not os.path.exists(data_path):
+        print(f"⚠ Skipping intervention_spr_changes: {data_path} not found")
+        return
     
-    # Delta SPR values for each intervention
-    markdown_removal = [1.02, -4.14, -4.27]
-    back_translation = [-1.72, -5.43, -5.15]
-    paraphrasing = [1.73, -1.47, -2.51]
+    with open(data_path, 'r') as f:
+        data = json.load(f)
+    
+    # Calculate deltas for each model
+    baseline = data['Baseline']
+    markdown_results = data['Markdown Removal']
+    backtrans_results = data['Back-Translation']
+    paraphrase_results = data['Paraphrasing']
+    
+    models = ['Claude-3.5-Haiku', 'ChatGPT-4o', 'DeepSeek-R1']
+    keys = ['claude', 'chatgpt', 'deepseek']
+    markdown_removal = [markdown_results[k] - baseline[k] for k in keys]
+    back_translation = [backtrans_results[k] - baseline[k] for k in keys]
+    paraphrasing = [paraphrase_results[k] - baseline[k] for k in keys]
     
     fig, ax = plt.subplots(figsize=FIG_DOUBLE_COL)
     
@@ -171,7 +188,7 @@ def plot_intervention_spr():
             label_x = width + 0.2 if width > 0 else width - 0.2
             ha = 'left' if width > 0 else 'right'
             ax.text(label_x, bar.get_y() + bar.get_height()/2, 
-                    f'{width:+.1f}', va='center', ha=ha, fontsize=10)
+                    f'{width:+.2f}', va='center', ha=ha, fontsize=10)
     
     ax.legend(loc='lower left', ncol=1)
     
@@ -190,13 +207,30 @@ def plot_classifier_accuracy_drop():
     """
     Horizontal bar chart showing classifier accuracy drops for each intervention.
     """
-    interventions = ['Paraphrasing', 'Markdown Removal', 'Back-Translation']
-    accuracy_drops = [-33.47, -30.03, -5.24]
+    # Load data
+    data_path = f'{RESULTS_DIR}/metrics/per_model_intervention_data.json'
+    if not os.path.exists(data_path):
+        print(f"⚠ Skipping classifier_accuracy_drop: {data_path} not found")
+        return
+    
+    with open(data_path, 'r') as f:
+        data = json.load(f)
+    
+    baseline_acc = data['Baseline']['overall']
+    
+    # Interventions to show (excluding baseline)
+    plot_interventions = ['Paraphrasing', 'Markdown Removal', 'Back-Translation']
+    accuracy_drops = []
+    
+    for inter in plot_interventions:
+        acc = data[inter]['overall']
+        drop = (acc - baseline_acc) * 100
+        accuracy_drops.append(drop)
     
     fig, ax = plt.subplots(figsize=(6, 3))
     
     colors = [COLOR_PALETTE[2], COLOR_PALETTE[0], COLOR_PALETTE[1]]
-    bars = ax.barh(interventions, accuracy_drops, color=colors, height=0.55, edgecolor='white')
+    bars = ax.barh(plot_interventions, accuracy_drops, color=colors, height=0.55, edgecolor='white')
     
     ax.set_xlabel('Change in Classifier Accuracy (pp)')
     ax.set_xlim(-42, 5)
@@ -206,7 +240,7 @@ def plot_classifier_accuracy_drop():
     # Add value labels
     for bar, value in zip(bars, accuracy_drops):
         ax.text(value - 0.8, bar.get_y() + bar.get_height()/2, 
-                f'{value:+.1f}pp', va='center', ha='right', fontsize=11, fontweight='medium')
+                f'{value:+.2f}pp', va='center', ha='right', fontsize=11, fontweight='medium')
     
     plt.tight_layout()
     
@@ -223,11 +257,38 @@ def plot_per_model_classifier_metrics():
     """
     Grouped vertical bar chart showing precision, recall, F1 for each model.
     """
-    models = ['ChatGPT-4o', 'Claude-3.5-Haiku', 'DeepSeek-R1']
+    # Load data
+    data_path = f'{RESULTS_DIR}/metrics/per_model_intervention_data.json'
+    if not os.path.exists(data_path):
+        print(f"⚠ Skipping per_model_classifier_metrics: {data_path} not found")
+        return
     
-    precision = [0.7942, 0.8002, 0.8215]
-    recall = [0.7910, 0.8370, 0.7870]
-    f1_score = [0.7926, 0.8182, 0.8039]
+    with open(data_path, 'r') as f:
+        data = json.load(f)
+    
+    baseline = data['Baseline']
+    # Map model ID to display name and get metrics
+    model_mapping = {
+        'chatgpt-4o-latest-20250326': 'ChatGPT-4o',
+        'claude-3-5-haiku-20241022': 'Claude-3.5-Haiku',
+        'deepseek-r1-0528': 'DeepSeek-R1'
+    }
+    
+    models = []
+    precision = []
+    recall = []
+    f1_score = []
+    
+    for model_id, display_name in model_mapping.items():
+        if model_id in baseline['baseline_metrics']:
+            models.append(display_name)
+            metrics = baseline['baseline_metrics'][model_id]
+            precision.append(metrics['precision'])
+            recall.append(metrics['recall'])
+            f1_score.append(metrics['f1'])
+    
+    # Use overall accuracy in title
+    overall_acc = baseline['overall']
     
     fig, ax = plt.subplots(figsize=FIG_DOUBLE_COL)
     
@@ -246,14 +307,14 @@ def plot_per_model_classifier_metrics():
     ax.grid(axis='y', alpha=0.3)
     
     # Title with accuracy info
-    ax.set_title('Per-Model Classifier Performance (Baseline Accuracy: 80.50%)')
+    ax.set_title(f'Per-Model Classifier Performance (Baseline Accuracy: {overall_acc*100:.2f}%)')
     
     # Add value labels on bars
     for bars in [bars1, bars2, bars3]:
         for bar in bars:
             height = bar.get_height()
             ax.text(bar.get_x() + bar.get_width()/2., height + 0.003,
-                    f'{height:.2f}', ha='center', va='bottom', fontsize=10)
+                    f'{height:.4f}', ha='center', va='bottom', fontsize=9)
     
     plt.tight_layout()
     
@@ -279,14 +340,14 @@ def plot_per_model_intervention_effects():
     with open(data_path, 'r') as f:
         data = json.load(f)
     
-    interventions = ['Baseline', 'Markdown Removal', 'Back-Translation', 'Paraphrasing']
-    chatgpt_acc = [data[i]['chatgpt'] * 100 for i in interventions]
-    claude_acc = [data[i]['claude'] * 100 for i in interventions]
-    deepseek_acc = [data[i]['deepseek'] * 100 for i in interventions]
+    interventions_acc = ['Baseline', 'Markdown Removal', 'Back-Translation', 'Paraphrasing']
+    chatgpt_acc = [data[i]['chatgpt'] * 100 for i in interventions_acc]
+    claude_acc = [data[i]['claude'] * 100 for i in interventions_acc]
+    deepseek_acc = [data[i]['deepseek'] * 100 for i in interventions_acc]
     
     fig, ax = plt.subplots(figsize=(7.5, 4.5))
     
-    x = np.arange(len(interventions))
+    x = np.arange(len(interventions_acc))
     width = 0.25
     
     bars1 = ax.bar(x - width, chatgpt_acc, width, label='ChatGPT-4o', color=COLORS['chatgpt'], edgecolor='white')
@@ -297,7 +358,7 @@ def plot_per_model_intervention_effects():
     ax.set_ylabel('Classifier Accuracy (%)')
     ax.set_title('Per-Model Classifier Accuracy Under Each Intervention')
     ax.set_xticks(x)
-    ax.set_xticklabels(interventions)
+    ax.set_xticklabels(interventions_acc)
     ax.set_ylim(0, 100)
     ax.legend(loc='upper right')
     ax.grid(axis='y', alpha=0.3)
@@ -311,7 +372,7 @@ def plot_per_model_intervention_effects():
         for bar in bars:
             height = bar.get_height()
             ax.text(bar.get_x() + bar.get_width()/2., height + 1.5,
-                    f'{height:.0f}%', ha='center', va='bottom', fontsize=9)
+                    f'{height:.2f}%', ha='center', va='bottom', fontsize=9)
     
     plt.tight_layout()
     
@@ -330,7 +391,7 @@ def plot_top10_features_per_model():
     """
     feature_path = f'{RESULTS_DIR}/feature_data/feature_importance_top10_per_language_model.csv'
     if not os.path.exists(feature_path):
-        print(f"⚠ Skipping top10_features_per_model: {feature_path} not found")
+        print(f"Skipping top10_features_per_model: {feature_path} not found")
         return
     
     df = pd.read_csv(feature_path)
@@ -369,82 +430,6 @@ def plot_top10_features_per_model():
     print("Done: top10_features_per_model.png")
 
 
-# =============================================================================
-# PLOT 7: Intervention Examples Figure
-# =============================================================================
-
-def plot_intervention_examples():
-    """
-    Compact academic-style text comparison figure.
-    Smaller figure = larger text when embedded in paper.
-    """
-    json_path = f'{RESULTS_DIR}/metrics/intervention_comparison.json'
-    if not os.path.exists(json_path):
-        print(f"⚠ Skipping intervention_examples: {json_path} not found")
-        print("  Run the intervention comparison script first to generate the data.")
-        return
-    
-    with open(json_path, 'r') as f:
-        data = json.load(f)
-    
-    # Taller figure to fit full text
-    fig = plt.figure(figsize=(7, 8))
-    
-    # Use full text (no truncation)
-    samples = [
-        ('(a) Baseline', data['baseline'], '#444444'),
-        ('(b) Markdown Removal', data['markdown_removed'], COLOR_PALETTE[0]),
-        ('(c) Back-Translation', data['back_translated'], COLOR_PALETTE[1]),
-        ('(d) Paraphrasing', data['paraphrased'], COLOR_PALETTE[2])
-    ]
-    
-    # Grid spec for 2x2 layout with title space
-    gs = fig.add_gridspec(3, 2, height_ratios=[0.08, 1, 1], 
-                          hspace=0.12, wspace=0.10,
-                          left=0.03, right=0.97, top=0.94, bottom=0.02)
-    
-    # Title
-    ax_title = fig.add_subplot(gs[0, :])
-    ax_title.axis('off')
-    ax_title.text(0.5, 0.5, 'Intervention Examples', 
-                  ha='center', va='center', fontsize=13, fontweight='bold')
-    ax_title.text(0.5, -0.3, f'Prompt: "{data["user_prompt"]}"',
-                  ha='center', va='center', fontsize=10, style='italic', color='#555')
-    
-    # Panel positions
-    positions = [(1, 0), (1, 1), (2, 0), (2, 1)]
-    
-    for (title, text, color), (row, col) in zip(samples, positions):
-        ax = fig.add_subplot(gs[row, col])
-        
-        # Clean border
-        for spine in ax.spines.values():
-            spine.set_linewidth(1.5)
-            spine.set_color(color)
-        ax.set_xticks([])
-        ax.set_yticks([])
-        
-        # Title - bold
-        ax.text(0.03, 0.97, title, transform=ax.transAxes,
-                fontsize=11, fontweight='bold', color=color,
-                va='top', ha='left')
-        
-        # Colored underline
-        ax.plot([0.03, 0.97], [0.92, 0.92], color=color, linewidth=1.5,
-                transform=ax.transAxes, clip_on=False)
-        
-        # Main text - full text, wrapped appropriately
-        wrapped = textwrap.fill(text, width=30)
-        ax.text(0.03, 0.89, wrapped, transform=ax.transAxes,
-                fontsize=10, color='#1a1a1a', va='top', ha='left',
-                family='serif', linespacing=1.25)
-        
-        ax.set_facecolor('white')
-    
-    plt.savefig(f'{OUTPUT_DIR}/intervention_examples.png')
-    plt.close()
-    print("Done: intervention_examples.png")
-
 
 
 def main():
@@ -462,20 +447,14 @@ def main():
     plot_per_model_classifier_metrics()
     plot_per_model_intervention_effects()
     plot_top10_features_per_model()
-    plot_intervention_examples()
-    
-    print("\n" + "="*60)
-    print("ALL PLOTS GENERATED SUCCESSFULLY")
-    print("="*60)
     print(f"\nOutput directory: {OUTPUT_DIR}/")
     print("Files created:")
-    print("  - baseline_self_preference.pdf/png")
-    print("  - intervention_spr_changes.pdf/png")
-    print("  - classifier_accuracy_drop.pdf/png")
-    print("  - per_model_classifier_metrics.pdf/png")
-    print("  - per_model_intervention_effects.pdf/png")
-    print("  - top10_features_per_model.pdf/png")
-    print("  - intervention_examples.pdf/png")
+    print("  - baseline_self_preference.png")
+    print("  - intervention_spr_changes.png")
+    print("  - classifier_accuracy_drop.png")
+    print("  - per_model_classifier_metrics.png")
+    print("  - per_model_intervention_effects.png")
+    print("  - top10_features_per_model.png")
 
 
 if __name__ == '__main__':

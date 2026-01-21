@@ -309,3 +309,14 @@ av_bt = qwen_bt['avg']
 av_p = qwen_para['avg']
 print(f"{'AVERAGE':<15} | {av_b:6.2f}%    | {av_m:6.2f}%    ({av_m-av_b:+.2f}pp) | {av_bt:6.2f}%    ({av_bt-av_b:+.2f}pp) | {av_p:6.2f}%    ({av_p-av_b:+.2f}pp)")
 print("-" * 105)
+# Save to JSON for plotting
+results_json = {
+    'Baseline': baseline,
+    'Markdown Removal': markdown,
+    'Back-Translation': qwen_bt,
+    'Paraphrasing': qwen_para
+}
+
+with open('results/metrics/spr_results.json', 'w') as f:
+    json.dump(results_json, f, indent=4)
+print(f"\nDone: SPR results saved to results/metrics/spr_results.json")

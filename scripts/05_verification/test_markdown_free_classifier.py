@@ -142,7 +142,7 @@ def main():
     print("="*70)
     
     if accuracy > 0.70:
-        print(f"✅ HIGH ACCURACY: {accuracy*100:.2f}%")
+        print(f"HIGH ACCURACY: {accuracy*100:.2f}%")
         print("\nConclusion:")
         print("  Even without markdown, the classifier achieves high accuracy.")
         print("  This proves that stylistic fingerprints persist beyond surface formatting.")
@@ -150,12 +150,12 @@ def main():
         print("  Markdown removal alone is INSUFFICIENT to eliminate model fingerprints.")
         print("  Other features (POS patterns, word choice, syntax) remain strong signals.")
     elif accuracy > 0.50:
-        print(f"⚠️  MODERATE ACCURACY: {accuracy*100:.2f}%")
+        print(f" MODERATE ACCURACY: {accuracy*100:.2f}%")
         print("\nConclusion:")
         print("  Markdown removal reduced but did not eliminate fingerprinting.")
         print("  Some stylistic signals persist.")
     else:
-        print(f"✅ LOW ACCURACY: {accuracy*100:.2f}%")
+        print(f"LOW ACCURACY: {accuracy*100:.2f}%")
         print("\nConclusion:")
         print("  Markdown removal successfully disrupted model fingerprinting.")
         print("  Accuracy near random baseline indicates effective style removal.")
@@ -164,9 +164,22 @@ def main():
     print("\n" + "="*70)
     print("COMPARISON TO BASELINE")
     print("="*70)
-    print("Normal classifier on original data:     80.50%")
-    print("Normal classifier on markdown-stripped: 50.47% (-30.03pp)")
-    print(f"Markdown-free classifier on markdown-stripped: {accuracy*100:.2f}% ({(accuracy*100 - 80.50):+.2f}pp)")
+    
+    # Load metrics from data
+    data_path = 'results/metrics/per_model_intervention_data.json'
+    baseline_acc = 80.50  # Default but will be overwritten
+    markdown_stripped_acc = 50.47  # Default but will be overwritten
+    
+    if os.path.exists(data_path):
+        with open(data_path, 'r') as f:
+            data = json.load(f)
+        baseline_acc = data['Baseline']['overall'] * 100
+        if 'Markdown Removal' in data:
+            markdown_stripped_acc = data['Markdown Removal']['overall'] * 100
+        
+    print(f"Normal classifier on original data:     {baseline_acc:.2f}%")
+    print(f"Normal classifier on markdown-stripped: {markdown_stripped_acc:.2f}% ({markdown_stripped_acc - baseline_acc:+.2f}pp)")
+    print(f"Markdown-free classifier on markdown-stripped: {accuracy*100:.2f}% ({(accuracy*100 - baseline_acc):+.2f}pp)")
     print("\nKey Finding:")
     print("  Markdown-free classifier maintains high accuracy despite markdown removal,")
     print("  proving that the classifier ADAPTS by using other stylistic features.")

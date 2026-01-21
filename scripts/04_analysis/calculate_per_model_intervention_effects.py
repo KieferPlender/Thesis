@@ -11,7 +11,7 @@ sys.path.append('scripts/01_training')
 import pickle
 import json
 import pandas as pd
-from sklearn.metrics import accuracy_score, classification_report
+from sklearn.metrics import accuracy_score, classification_report, precision_recall_fscore_support
 from train_mcgovern_classifier import PosTagExtractor
 import numpy as np
 
@@ -82,9 +82,21 @@ for intervention_name, file_path in interventions:
             )
             model_accuracies[model] = model_acc
     
+    # For baseline, also get precision, recall, f1
+    extra_metrics = {}
+    if intervention_name == 'Baseline':
+        p, r, f, s = precision_recall_fscore_support(labels, y_pred_decoded, average=None, labels=clf.label_encoder_.classes_)
+        for i, model in enumerate(clf.label_encoder_.classes_):
+            extra_metrics[model] = {
+                'precision': p[i],
+                'recall': r[i],
+                'f1': f[i]
+            }
+
     results[intervention_name] = {
         'overall': overall_acc,
-        'per_model': model_accuracies
+        'per_model': model_accuracies,
+        'metrics': extra_metrics
     }
     
     print(f"  Overall: {overall_acc*100:.2f}%")
@@ -173,8 +185,14 @@ for intervention_name in ['Baseline', 'Markdown Removal', 'Back-Translation', 'P
         'overall': results[intervention_name]['overall'],
         'chatgpt': results[intervention_name]['per_model']['chatgpt-4o-latest-20250326'],
         'claude': results[intervention_name]['per_model']['claude-3-5-haiku-20241022'],
-        'deepseek': results[intervention_name]['per_model']['deepseek-r1-0528']
+        'deepseek': results[intervention_name]['per_model']['deepseek-r1-0528'],
+        'baseline_metrics': results['Baseline']['metrics'] if intervention_name == 'Baseline' else None
     }
+
+# Filter out None from baseline_metrics for other interventions
+for k in plot_data:
+    if plot_data[k]['baseline_metrics'] is None:
+        del plot_data[k]['baseline_metrics']
 
 with open('results/metrics/per_model_intervention_data.json', 'w') as f:
     json.dump(plot_data, f, indent=2)

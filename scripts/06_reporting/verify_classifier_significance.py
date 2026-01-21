@@ -7,16 +7,26 @@ Uses conservative estimates assuming worst-case scenario for significance.
 """
 
 from scipy.stats import chi2
+import json
+import os
 
 # Sample size: 3000 responses
 N = 3000
 
-# Classifier accuracies from results/metrics/per_model_intervention_effects.txt
-BASELINE_ACC = 0.8050
+# Load data from results
+DATA_PATH = 'results/metrics/per_model_intervention_data.json'
+if not os.path.exists(DATA_PATH):
+    print(f"Error: {DATA_PATH} not found. Run calculate_per_model_intervention_effects.py first.")
+    exit(1)
+
+with open(DATA_PATH, 'r') as f:
+    data = json.load(f)
+
+BASELINE_ACC = data['Baseline']['overall']
 INTERVENTIONS = {
-    'Markdown Removal': 0.5047,
-    'Back-Translation': 0.7526,
-    'Paraphrasing': 0.4703
+    'Markdown Removal': data['Markdown Removal']['overall'],
+    'Back-Translation': data['Back-Translation']['overall'],
+    'Paraphrasing': data['Paraphrasing']['overall']
 }
 
 print("=" * 80)

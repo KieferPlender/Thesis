@@ -3,7 +3,24 @@
     "overall": 0.805,
     "chatgpt": 0.791,
     "claude": 0.837,
-    "deepseek": 0.787
+    "deepseek": 0.787,
+    "baseline_metrics": {
+      "chatgpt-4o-latest-20250326": {
+        "precision": 0.7941767068273092,
+        "recall": 0.791,
+        "f1": 0.7925851703406813
+      },
+      "claude-3-5-haiku-20241022": {
+        "precision": 0.8001912045889101,
+        "recall": 0.837,
+        "f1": 0.8181818181818182
+      },
+      "deepseek-r1-0528": {
+        "precision": 0.8215031315240083,
+        "recall": 0.787,
+        "f1": 0.8038815117466803
+      }
+    }
   },
   "Markdown Removal": {
     "overall": 0.5046666666666667,
