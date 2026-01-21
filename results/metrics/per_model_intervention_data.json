@@ -1,0 +1,26 @@
+{
+  "Baseline": {
+    "overall": 0.805,
+    "chatgpt": 0.791,
+    "claude": 0.837,
+    "deepseek": 0.787
+  },
+  "Markdown Removal": {
+    "overall": 0.5046666666666667,
+    "chatgpt": 0.402,
+    "claude": 0.923,
+    "deepseek": 0.189
+  },
+  "Back-Translation": {
+    "overall": 0.7526333673122664,
+    "chatgpt": 0.702020202020202,
+    "claude": 0.8153061224489796,
+    "deepseek": 0.7410071942446043
+  },
+  "Paraphrasing": {
+    "overall": 0.4702501690331305,
+    "chatgpt": 0.4636363636363636,
+    "claude": 0.71617497456765,
+    "deepseek": 0.23147208121827412
+  }
+}

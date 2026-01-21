@@ -86,7 +86,7 @@ def main():
     if args.output:
         with open(args.output, 'w') as f:
             json.dump(results, f, indent=2)
-        print(f"\n✓ Results saved to {args.output}")
+        print(f"\nDone: Results saved to {args.output}")
     
     print("\n" + "="*70)
     print("SUMMARY")

@@ -143,7 +143,7 @@ def load_training_data(file_path='classifier_training_samples.jsonl'):
         print(f"\n⚠ WARNING: Class imbalance detected (ratio: {imbalance_ratio:.2f})")
         print(f"  This may bias the classifier. Consider resampling.")
     else:
-        print(f"\n✓ Classes are balanced (ratio: {imbalance_ratio:.2f})")
+        print(f"\nDone: Classes are balanced (ratio: {imbalance_ratio:.2f})")
     
     return texts, labels
 
@@ -160,7 +160,7 @@ def train_classifier(X_train, y_train, optimize=True):
     # Encode labels (XGBoost needs numeric labels)
     label_encoder = LabelEncoder()
     y_train_encoded = label_encoder.fit_transform(y_train)
-    print(f"✓ Labels encoded: {label_encoder.classes_}", flush=True)
+    print(f"Done: Labels encoded: {label_encoder.classes_}", flush=True)
     
     # Build feature pipeline
     feature_pipeline = build_feature_pipeline()
@@ -169,7 +169,7 @@ def train_classifier(X_train, y_train, optimize=True):
     print("\nExtracting features from training data...", flush=True)
     print("This will extract word n-grams, char n-grams, and POS n-grams...", flush=True)
     X_train_features = feature_pipeline.fit_transform(X_train)
-    print(f"✓ Features extracted: {X_train_features.shape}", flush=True)
+    print(f"Done: Features extracted: {X_train_features.shape}", flush=True)
     
     # Now train classifier on pre-computed features
     classifier = XGBClassifier(
@@ -269,11 +269,11 @@ def evaluate_classifier(pipeline, X_test, y_test):
     # Interpretation
     print(f"\nInterpretation:")
     if accuracy >= 0.70:
-        print("✓ EXCELLENT: Strong stylistic fingerprints detected")
+        print("Done: Strong stylistic fingerprints detected")
     elif accuracy >= 0.50:
-        print("⚠ MODERATE: Some fingerprints detected")
+        print("MODERATE: Some fingerprints detected")
     else:
-        print("✗ POOR: Weak fingerprints (may need more data or features)")
+        print("POOR: Weak fingerprints (may need more data or features)")
     
     # Detailed report (decode labels for readability)
     y_pred_decoded = pipeline.label_encoder_.inverse_transform(y_pred_encoded)
@@ -334,7 +334,7 @@ def main():
     with open(model_path, 'wb') as f:
         pickle.dump(pipeline, f)
     
-    print(f"\n✓ Model saved to {model_path}")
+    print(f"\nDone: Model saved to {model_path}")
     
     print("\n" + "="*70)
     print("Next Steps")

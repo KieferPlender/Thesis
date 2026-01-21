@@ -152,13 +152,13 @@ overlap = set(df_final['conversation_id'].unique()).intersection(excluded_ids)
 if overlap:
     print(f"\n⚠ WARNING: {len(overlap)} conversation IDs overlap with judge_samples!")
 else:
-    print(f"\n✓ No overlap with judge_samples.jsonl")
+    print(f"\nDone: No overlap with judge_samples.jsonl")
 
 # Save
 output_file = "classifier_training_samples.jsonl"
 df_final.to_json(output_file, orient='records', lines=True)
 
-print(f"\n✓ Saved to {output_file}")
+print(f"\nDone: Saved to {output_file}")
 print(f"\nThis data will be used to train the McGovern classifier.")
 print(f"The classifier will then be tested on:")
 print(f"  1. judge_samples.jsonl (baseline)")

@@ -1,0 +1,1504 @@
+feature,importance
+word_like me to,0.012160866
+word_like me to elaborate,0.010595062
+word_language models llms,0.009355563
+word_you like this,0.008776291
+"char_
+- ",0.007003601
+word_me to help you,0.00630777
+char_| ,0.006278662
+char_ you,0.0057385904
+char_* **,0.0055970554
+word_let me know your,0.005282453
+word_ll do my,0.005230158
+char_## ,0.0047358535
+char_rt,0.0047216048
+word_would you like me to,0.004702292
+word_ll do my best,0.004365949
+char_ wit,0.004338507
+pos_nnp in jj,0.0043347743
+pos_in dt nnp,0.0039163115
+char_tin,0.0038113948
+char_) ,0.0038066707
+pos_nns in dt nn,0.0037756015
+pos_in dt jj,0.0036775367
+char_ wi,0.0036655732
+pos_cc nnp nnp nnp,0.0034795841
+char_ y,0.0032893724
+pos_nn cc jj nnp,0.0032340996
+char_##,0.0032167584
+pos_nn nn jj nnp,0.0031920823
+char_nti,0.0030657714
+pos_jj to vb,0.0030592475
+pos_vbz nnp nnp,0.0030589455
+pos_vbn to vb,0.0030532607
+char_di,0.0030403465
+pos_nnp nnp jj,0.002930652
+char_al,0.0028841756
+pos_to dt nn,0.0028697609
+char_###,0.0026881048
+pos_nn in dt nn,0.0026731095
+pos_nn vbz in,0.0026499256
+pos_nn vbz dt nn,0.0026477831
+pos_nnp nnp in nnp,0.0026041202
+"char_
+-",0.00259658
+char_ he,0.0025886435
+pos_nns nnp nnp,0.0025812087
+word_apologize but cannot actually,0.0025715043
+word_for long term,0.002563309
+char_nt,0.002550862
+pos_nnp nn nns,0.0023850065
+pos_jj nnp nn nnp,0.002373051
+word_likely to be,0.0023682695
+char_* ,0.002339461
+char_ or,0.0022661232
+pos_cc dt nn,0.002251784
+word_me know the,0.002190312
+pos_nnp nn in,0.0021807323
+pos_nn nn vbz,0.0021764021
+pos_vb nnp nnp,0.0021626526
+pos_nn in nns,0.0021602619
+pos_dt nnp nnp nnp,0.0021546104
+pos_jj nnp nnp cc,0.0021499805
+word_you can do,0.002126529
+pos_nns nn jj nnp,0.0021217612
+pos_nnp nnp nnp nnp nnp,0.002111104
+pos_nn cc nnp,0.00209933
+pos_dt nnp nnp,0.00206649
+word_if you want,0.0020615924
+pos_jj jj nnp,0.0020592092
+pos_nn nns cc,0.0020298907
+word_large language models llms,0.0020159795
+char_ |,0.002008227
+pos_dt nn nn,0.0020003745
+word_you like me to elaborate,0.0019861313
+pos_prp vbp jj,0.0019821634
+pos_nnp nn nn nnp,0.0019533837
+pos_in nnp nnp,0.001918185
+pos_vbg in dt,0.0019133918
+char_al ,0.0018990254
+char_he,0.0018666539
+word_if you want to,0.0018347021
+pos_nns vbp rb,0.0018344201
+pos_jj nns vbp,0.0018322926
+char_ing ,0.0018264737
+pos_dt nns vbp,0.0018254076
+char_ns ,0.0018053707
+pos_nnp cd nnp nnp,0.0018032044
+pos_nns in prp,0.0018009341
+pos_cd vb jj,0.0017803878
+char_ain,0.0017402985
+pos_in nnp nnp nnp nnp,0.0017321834
+pos_vbp jj nns,0.0017256553
+pos_nnp nnp nnp nnp vbz,0.0017122016
+char_ g,0.0017111223
+pos_nnp nn nnp nn,0.0017050364
+char_ fr,0.0017049105
+pos_nn to vb,0.0016827055
+pos_jj nn in,0.0016792999
+pos_jj nn cd,0.0016757847
+char_bu,0.0016725037
+pos_dt nn in dt,0.0016659651
+char_* *,0.0016658094
+pos_nns to vb,0.0016650516
+char_uc,0.0016341006
+pos_jj nn nn in,0.001633598
+pos_dt nn vbz,0.0016215298
+pos_jj nn dt,0.0016187131
+word_you are not,0.0016180883
+word_in the air,0.0016086466
+pos_dt nn in,0.0016034162
+char_ (,0.0015694189
+pos_dt nn prp,0.001564979
+char_er,0.0015623526
+pos_nn in dt jj,0.0015564155
+pos_nnp cc nnp,0.001555766
+pos_nns in vbg,0.0015525921
+char_ of,0.0015472865
+pos_jj nn nn jj,0.0015235557
+pos_nn cc nn,0.0015193665
+pos_nnp nnp nnp in nnp,0.0015170646
+char_ers,0.001512997
+pos_nn jj jj,0.0015113082
+pos_nn nn cc,0.0015094824
+char_hat,0.0015085797
+char_ni,0.0015019674
+char_nd,0.0014809904
+pos_nn vbz vbn,0.0014791159
+pos_dt nnp nnp nnp nnp,0.0014774065
+pos_dt nn in dt nn,0.0014603016
+pos_nn nns nnp,0.0014555302
+pos_nns vb jj,0.0014464281
+char_ti,0.00142211
+char_ n,0.0014212048
+pos_nn nn vbg,0.001417772
+pos_nnp cc nnp nn,0.001409517
+char_ -,0.0013976514
+"char_s, ",0.0013903967
+char_ so,0.0013808026
+pos_cc dt jj,0.0013733783
+pos_nn nn nnp nnp nnp,0.0013724474
+pos_in jj nn nns,0.0013719026
+char_ter,0.0013595561
+char_ion,0.0013583095
+pos_nn vbn in,0.0013568467
+char_ef,0.0013536117
+char_:**,0.0013493634
+char_ive ,0.0013465458
+pos_nns in nn,0.0013460947
+pos_nns in nnp,0.0013439354
+pos_nnp nnp nnp in,0.0013385507
+pos_nnp jj jj,0.0013377098
+pos_nn nnp in,0.0013349378
+pos_nns nn nnp nnp,0.0013292868
+pos_vbp jj nnp,0.0013265254
+pos_vbp dt nn,0.0013208597
+char_ ch,0.0013123697
+char_ic,0.0013122393
+char_pl,0.0013077745
+pos_nnp in nnp nnp,0.0013055156
+char_hat ,0.0013011108
+pos_nn in dt jj nn,0.0012972823
+pos_vbz dt jj nn in,0.0012969523
+pos_nns in nns,0.0012925577
+pos_nn cc nn in,0.0012877535
+pos_nnp jj nn nnp,0.0012873373
+char_ yo,0.001287308
+pos_in dt nns,0.0012872563
+char_th ,0.0012863147
+char_ces,0.0012860721
+pos_cd jj jj,0.0012845033
+char_ le,0.0012792757
+char_pe,0.0012779419
+pos_vbz dt nn,0.0012774896
+char_ su,0.0012758594
+pos_nn dt jj,0.0012743279
+pos_nnp nnp vbd cd,0.0012723019
+char_ff,0.00126631
+pos_vbg jj nn,0.0012606491
+char_rn,0.0012604581
+pos_nn nnp nn,0.0012595452
+char_lo,0.0012573694
+char_ove,0.0012547378
+pos_nnp nnp nn vbz,0.0012529696
+char_ur,0.0012435667
+char_ mo,0.0012398046
+char_li,0.0012395944
+pos_cc nn nns,0.0012388207
+char_of,0.0012360507
+char_ns,0.00123074
+pos_nn nn jj nnp nnp,0.0012302398
+char_ ma,0.0012299413
+pos_nnp nnp cc nnp,0.0012297495
+char_ine,0.0012296303
+pos_in prp vbp,0.0012258587
+char_ f,0.0012254963
+pos_nnp cd vb jj,0.001221324
+char_pro,0.0012202576
+pos_cc jj nnp,0.0012193763
+char_le ,0.0012193209
+char_ep,0.0012180748
+pos_nnp nnp nnp nnp cc,0.0012176578
+pos_vbd dt nn,0.0012174434
+char_ear,0.0012156457
+pos_md rb vb,0.0012121943
+pos_vbg dt jj nn,0.0012091558
+pos_jj nnp nn,0.0012086466
+pos_nn nnp vbz,0.0012043427
+pos_prp jj nn,0.0012009641
+char_a ,0.001200047
+pos_nn nnp nnp in,0.0011990636
+char_- ,0.0011947562
+pos_vbz dt jj nn,0.0011925419
+pos_to vb in,0.0011911795
+pos_nnp in dt,0.00119006
+pos_dt jj jj nn,0.0011885691
+char_- **,0.0011871344
+char_cti,0.001186924
+char_y ,0.0011868243
+char_nc,0.001180074
+pos_jj cc jj nn,0.0011785108
+char_ve ,0.0011773942
+char_ w,0.0011750046
+"char_"" ",0.0011677904
+char_pi,0.0011676727
+char_s th,0.0011675619
+char_---,0.0011663361
+char_ tr,0.0011656655
+char_ls,0.0011610164
+pos_nnp in nnp,0.00115883
+pos_to vb nnp,0.0011533919
+pos_in nn jj,0.00115048
+char_ be,0.0011491479
+char_es ,0.0011488219
+char_on,0.0011448878
+pos_nn nnp nn nn,0.0011434894
+pos_cc nnp nnp,0.0011397253
+char_s*,0.0011377787
+pos_nnp nnp nnp nns,0.0011312773
+char_we,0.001131257
+char_ sp,0.0011299164
+word_here are some,0.0011288896
+pos_in nnp nnp nnp,0.0011254639
+char_und,0.0011241939
+char_t a,0.0011211926
+char_re ,0.0011203005
+char_ m,0.0011184312
+pos_nnp nnp jj nn,0.0011182695
+char_s ,0.0011180835
+char_l ,0.0011145785
+char_ ex,0.0011145031
+pos_nn nn nn jj,0.001113515
+pos_jj nn jj nn,0.001113134
+pos_vbn in dt,0.0011071276
+char_der,0.0011070737
+pos_rb vbz dt,0.0011043302
+char_pre,0.0011037755
+char_ri,0.0011028253
+pos_nnp cd vb,0.0011016296
+pos_nns md vb,0.0010994645
+char_is,0.0010990233
+char_he ,0.0010977414
+pos_cd vb jj nnp,0.0010966518
+pos_nn cc jj nnp nnp,0.0010944315
+char_wi,0.0010941327
+char_ac,0.0010908933
+char_me ,0.0010900968
+pos_dt jj nn nn,0.0010890154
+pos_jj nns rb,0.0010887523
+char_ag,0.0010879606
+pos_jj nns in,0.0010852631
+char_s o,0.0010827275
+char_ li,0.0010819829
+char_ent ,0.001080289
+char_ h,0.0010793944
+char_igh,0.0010774609
+pos_jj jj nn jj,0.0010761992
+char_mp,0.0010743111
+pos_nnp nnp cc,0.0010690688
+char_e t,0.0010644565
+pos_jj nn rb,0.0010636481
+char_pr,0.0010614647
+pos_nnp in nnp nnp nnp,0.001061007
+char_le,0.0010596297
+char_it,0.0010566075
+pos_nnp vbz dt,0.001055855
+char_vi,0.0010558196
+char_ch,0.0010553434
+char_ith,0.0010551466
+char_ de,0.0010538461
+char_il,0.0010483402
+char_ec,0.0010473705
+pos_nnp nn nnp nnp,0.0010472917
+pos_prp vbp dt,0.0010466304
+char_se ,0.0010441222
+pos_nns in jj nn,0.0010428221
+pos_prp nn in,0.0010424822
+pos_in prp jj,0.0010411511
+char_sh,0.0010401984
+char_bl,0.0010397228
+char_la,0.0010353804
+pos_to vb dt nn,0.0010341237
+char_ com,0.0010329296
+pos_in nn nns,0.0010329201
+"char_e,",0.0010293383
+pos_nnp nnp nn in,0.0010283361
+char_nt ,0.0010275743
+char_ting,0.0010263899
+char_pp,0.0010262891
+char_mi,0.0010251275
+pos_nnp nnp nn nn nnp,0.00102314
+char_e ,0.0010182522
+pos_nnp nn nn in,0.001017539
+char_lt,0.0010171611
+char_tic,0.0010167541
+char_ne,0.0010167522
+pos_nnp nnp nnp vbd,0.0010162912
+char_ng ,0.0010154081
+pos_dt nn cc,0.0010146428
+char_ pr,0.001013815
+char_ki,0.0010134061
+pos_nn rb in,0.0010125955
+char_d ,0.0010123452
+char_in,0.001011778
+char_me,0.0010102497
+char_m ,0.0010099844
+pos_jj nn nn nnp nnp,0.0010097672
+char_ is ,0.0010089093
+pos_jj nn nns,0.0010074135
+pos_jj nn jj,0.0010058976
+char_n t,0.0010035539
+char_ty,0.0009988399
+char_am,0.00099814
+char_ b,0.0009977935
+char_sta,0.0009961409
+pos_nn cc dt,0.0009934416
+pos_nnp cc nnp nnp,0.0009927341
+char_ an,0.0009910907
+char_fic,0.0009885456
+char_s. ,0.0009884781
+char_tor,0.0009879991
+char_ity,0.0009878331
+char_ ##,0.000984995
+pos_nns jj nn,0.0009842544
+pos_jj nn in nn,0.0009840243
+char_s t,0.0009837038
+char_era,0.0009830509
+pos_nnp nn nn nn,0.0009803735
+char_ona,0.0009793467
+pos_jj jj nn nnp nnp,0.0009780341
+pos_nn vbz dt jj,0.0009778567
+char_or ,0.0009773382
+char_ea,0.00097732
+pos_jj in dt,0.00097564864
+pos_vb jj nns,0.0009756326
+pos_nn dt nn,0.000973041
+char_**,0.00097266445
+char_ht,0.0009722197
+pos_prp vbp vbg,0.0009695016
+char_age,0.00096873974
+char_an ,0.0009671435
+pos_vbz dt nn in,0.0009656445
+pos_nn in prp,0.00096466247
+char_ie,0.0009634212
+pos_nnp cc jj,0.0009616172
+char_et,0.0009613945
+char_tha,0.0009595843
+char_w ,0.0009591448
+char_are,0.00095561246
+pos_nn nn nn cc,0.00095525954
+char_mo,0.000949299
+char_ons,0.00094823365
+char_d t,0.00094771344
+char_er ,0.00094756257
+char_s a,0.0009474287
+char_ue,0.0009466246
+pos_nnp cc nnp nnp nnp,0.00094637566
+"char_.
+",0.0009462853
+pos_prp vbz jj,0.0009455104
+char_ to ,0.0009429467
+char_th,0.00094256003
+pos_vb jj nn,0.0009425359
+char_bi,0.0009398554
+char_su,0.000937218
+char_e p,0.00093694543
+char_ #,0.0009367013
+char_nd ,0.0009360559
+char_ on,0.00093547587
+char_t ,0.0009354228
+pos_vb dt jj nn,0.00093259395
+char_fr,0.0009321351
+pos_nn jj nnp nnp nn,0.0009321141
+pos_nn nn nn nn,0.0009320198
+pos_nnp dt jj,0.00092889945
+pos_nnp nnp nn,0.00092677976
+pos_vbn in nnp,0.0009256768
+pos_in jj nnp,0.0009250432
+pos_dt nn nnp,0.0009236984
+char_ pa,0.0009235272
+pos_nn nnp nnp,0.0009227391
+char_ ha,0.00092236616
+"char_s,",0.0009200836
+char_ir,0.00091922353
+pos_nns cc nns,0.00091893144
+char_you,0.00091752614
+char_to ,0.0009172927
+char_ith ,0.0009164809
+char_ing,0.0009151211
+pos_nns in nnp nnp,0.00091497734
+char_ru,0.00091389474
+char_r ,0.00091381423
+pos_nnp nnp vbd,0.000913544
+pos_nnp nn nnp,0.0009128156
+pos_nns in dt,0.000909784
+char_p ,0.00090919796
+char_ e,0.0009085607
+pos_nnp nnp prp,0.00090803223
+char_. *,0.00090745336
+"char_, an",0.00090679363
+pos_jj nnp nnp nnp nnp,0.0009065044
+pos_nnp to vb,0.0009057112
+pos_vb jj jj,0.0009049183
+pos_nn nns jj,0.0009044459
+pos_nnp nns in,0.0009042987
+char_. -,0.00090365467
+pos_to vb dt,0.0009030539
+char_con,0.00090294256
+pos_nn cc jj,0.0009009757
+char_ble,0.0009005921
+char_ba,0.000900554
+char_om,0.00089841866
+pos_jj nn nnp,0.0008977208
+char_ fo,0.00089680887
+char_ no,0.00089619536
+pos_nnp jj nn nn,0.0008959808
+char_ist,0.0008957537
+char_ st,0.0008945854
+char_f ,0.00089360535
+char_ wh,0.00089302746
+char_oo,0.0008927027
+pos_in nn cc,0.0008925731
+char_e i,0.00089171884
+char_no,0.00089128216
+char_rat,0.000890998
+char_el,0.00089092844
+pos_nn nnp cd,0.00088886055
+pos_vbz jj nn,0.000888855
+pos_in jj nns,0.00088786
+char_his,0.0008866459
+char_e m,0.00088498014
+char_as ,0.00088408944
+char_cl,0.00088362856
+pos_nn vbz dt jj nn,0.00088150427
+char_da,0.0008811311
+char_ent,0.0008789711
+pos_in nnp cc,0.00087597285
+pos_md vb dt,0.00087497546
+pos_nn cd nn,0.00087485067
+char_for,0.0008737961
+char_do,0.0008706338
+char_: ,0.0008701122
+char_bo,0.0008695593
+char_h ,0.00086944195
+char_ce,0.00086904096
+char_ar,0.0008678006
+char_and ,0.0008636206
+pos_nn cd vb,0.0008623705
+char_per,0.00086220924
+char_is ,0.00086179876
+pos_vb jj nnp nnp,0.00086103874
+pos_jj nnp nnp,0.00086069223
+pos_nn nns vbp,0.0008584834
+char_with,0.00085543474
+pos_nn cc vb,0.0008552886
+char_ed,0.00085429376
+char_va,0.0008539522
+char_ - ,0.00085280015
+char_com,0.00085249316
+pos_nnp nn jj nnp nnp,0.0008518458
+char_tiv,0.0008506313
+char_. **,0.00085038785
+pos_jj nn nn cc,0.0008495314
+char_ica,0.00084874535
+char_lu,0.00084611465
+char_wit,0.0008459422
+char_anc,0.0008441907
+char_ive,0.0008439744
+pos_jj nn to,0.0008435885
+pos_nn nn jj,0.0008431184
+char_to,0.00084254675
+pos_in nn cc nn,0.0008417949
+char_ me,0.00084146485
+char_g ,0.0008412036
+char_ui,0.0008405186
+pos_dt nnp nn,0.00083882804
+pos_vbz jj jj,0.0008375828
+pos_nn nn nnp nn,0.00083680317
+pos_rb vbn in,0.00083680084
+char_eve,0.00083608495
+pos_nn in jj nn,0.00083333306
+char_io,0.0008319053
+pos_nn vbz cd,0.00082910527
+char_ th,0.0008278794
+char_fi,0.0008262551
+pos_nns nn nns,0.000826184
+char_e.,0.0008255375
+pos_dt nn dt,0.0008252317
+char_ide,0.00082513085
+pos_dt jj nnp,0.0008248526
+pos_vbn in nn,0.0008239895
+pos_in jj nn,0.0008232401
+pos_vbg nn nn,0.0008214614
+char_ v,0.00082138303
+char_man,0.00082066655
+char_tu,0.0008204326
+char_wh,0.0008197017
+char_iti,0.00081880495
+char_u ,0.00081792974
+char_nte,0.0008173401
+char_--,0.00081711495
+char_ck,0.00081705244
+char_:** ,0.0008147524
+pos_cc nn nn,0.0008132771
+char_id,0.00081222365
+char_int,0.0008121106
+char_e a,0.00081164803
+pos_nn in nn nn,0.00081111107
+char_ i,0.00080841914
+char_es,0.00080805353
+pos_nn nn nn,0.0008067791
+char_ou,0.0008067315
+char_rs ,0.00080598326
+pos_vbn in jj,0.00080419966
+char_rea,0.0008019987
+pos_nnp nnp vbp,0.0008015097
+char_ha,0.00080114993
+pos_nn jj nnp,0.0008004827
+char_** ,0.00080016407
+word_if you re interested in,0.0008001307
+char_ a ,0.0008000498
+char_if,0.0008000366
+pos_jj jj jj,0.00079952826
+char_men,0.0007988575
+char_in ,0.0007978586
+char_c ,0.00079780165
+pos_nn nn in dt,0.0007976422
+char_ se,0.00079745107
+char_na,0.00079593563
+pos_dt jj nn in,0.00079523167
+pos_jj nn jj nnp nnp,0.0007948622
+pos_in prp nn,0.00079276855
+pos_dt jj nn in dt,0.000791383
+char_ions,0.0007907715
+pos_cc jj nns,0.0007905063
+char_tur,0.00078981044
+char_wo,0.0007886832
+char_ut,0.0007885035
+pos_jj nns vb,0.0007874325
+char_it ,0.0007871772
+char_lly,0.0007867377
+char_ty ,0.0007849917
+pos_nns in jj nns,0.00078472367
+pos_jj nnp nnp nnp,0.000783687
+char_of ,0.00078354415
+char_ it,0.0007833277
+char_ in,0.00078310294
+pos_in nn nn,0.0007806594
+char_oc,0.00077953306
+char_os,0.00077827397
+pos_cd nn jj,0.0007777291
+char_nal,0.0007771329
+pos_nn nn nnp nnp,0.0007762653
+char_ re,0.000773573
+char_ere,0.0007731094
+char_ and,0.0007718846
+char_wa,0.0007713436
+char_- *,0.00077048666
+pos_jj jj nn,0.0007704439
+char_on ,0.0007703452
+char_en ,0.0007688854
+char_ a,0.00076753093
+char_ pe,0.00076744956
+pos_jj nn cc nn,0.00076586724
+char_ed ,0.00076479575
+pos_jj nns in jj,0.0007635012
+char_ po,0.0007632794
+char_be,0.00076064875
+char_ke,0.00076030765
+char_ure,0.000758196
+pos_to vb prp,0.0007581874
+char_nce,0.0007576131
+pos_nnp nnp nn nnp,0.00075647404
+pos_nns dt nn,0.00075565575
+pos_vb dt jj,0.0007553194
+char_ in ,0.00075440854
+char_ical,0.00075437425
+char_ct,0.00075307046
+char_ol,0.00075173826
+char_# ,0.00075131445
+char_ste,0.00074917614
+char_----,0.00074828626
+pos_nnp nnp nnp,0.0007480952
+char_de,0.0007476565
+char_ce ,0.00074706844
+char_ bu,0.00074561423
+char_ci,0.0007444068
+char_si,0.0007441337
+char_at ,0.00074375793
+char_en,0.0007432158
+pos_jj nn in dt nn,0.00074161106
+char_ d,0.0007394088
+char_ov,0.00073780713
+pos_jj jj nnp nnp,0.0007372133
+pos_nn jj nns,0.0007369691
+char_ co,0.0007362325
+pos_nnp jj nnp nnp,0.0007358652
+pos_in dt nnp nnp,0.0007350915
+char_ the,0.0007339376
+char_ry,0.00073378073
+char_ion ,0.0007324315
+char_ow,0.0007310078
+pos_nns cc nn,0.00073043845
+char_omp,0.00072937284
+pos_nnp nnp nn nn,0.0007290653
+char_and,0.00072672585
+char_ro,0.0007258891
+char_ate,0.00072289124
+pos_jj nn cc jj,0.00072227296
+char_ic ,0.0007197874
+pos_md vb jj,0.0007187733
+char_rm,0.0007186221
+pos_vbz dt jj,0.000717863
+char_sp,0.0007175384
+char_ ar,0.00071678247
+char_pt,0.0007157625
+pos_nn jj nn in,0.0007155962
+char_ex,0.00071415346
+char_ca,0.00071404595
+char_s i,0.00071372866
+char_qu,0.0007133413
+pos_nnp nnp cd nnp nnp,0.00071282074
+char_sc,0.0007111986
+char_un,0.00071110175
+pos_nn in nnp,0.00071065204
+char_gr,0.00071032246
+char_ly ,0.00070904806
+pos_nnp nnp nnp nnp vbd,0.00070797367
+"char_ """,0.00070513505
+pos_nns cc jj,0.0007041404
+pos_vb jj nnp nnp nnp,0.0007022235
+char_use,0.00070097425
+char_tio,0.00070061133
+char_ for,0.0007004957
+char_e f,0.00069923856
+char_n ,0.0006990162
+pos_jj nn vbg,0.0006971528
+char_ tha,0.0006969107
+char_ati,0.0006961082
+char_ c,0.0006950762
+pos_nnp nn cd,0.0006947857
+pos_vb dt nn in,0.00069451873
+"char_, a",0.0006944974
+char_as,0.0006944699
+char_ te,0.00069436716
+pos_nn jj nn nn,0.0006940596
+char_du,0.00069357257
+pos_in jj nn cc,0.0006933522
+char_the,0.00069329626
+pos_cc jj nn,0.00069224514
+char_lit,0.0006906051
+char_ l,0.00068899576
+char_ll,0.0006875036
+pos_jj jj nn in,0.0006861458
+char_ta,0.000685902
+char_ot,0.00068554835
+char_ev,0.0006848893
+char_ga,0.0006844464
+char_ten,0.00068208267
+char_ r,0.0006779727
+pos_nn nns nn,0.0006778064
+char_ma,0.0006773323
+char_ of ,0.0006748804
+pos_nn nn in nn,0.00067412766
+char_ig,0.00067362125
+char_av,0.00067255937
+pos_nn nn nn nn nn,0.0006723621
+char_s:,0.00067230687
+word_you like me to,0.00067137374
+char_ts,0.00066958653
+char_ai,0.0006671795
+pos_cd nnp nnp nnp nnp,0.00066695147
+pos_dt nn rb,0.00066588045
+pos_nnp nnp nnp nn nn,0.0006652776
+char_pa,0.0006649555
+pos_jj nns in nn,0.00066472014
+pos_vb dt nn,0.00066450465
+char_ pro,0.0006625214
+char_ en,0.0006618675
+char_ or ,0.00065979693
+char_ 1,0.0006577292
+pos_vbg dt nn,0.00065746956
+char_tion,0.0006574231
+char_eg,0.0006560403
+char_ di,0.0006545863
+pos_nnp jj nnp nnp nnp,0.0006522082
+char_ess,0.0006513344
+pos_dt jj nns,0.00065053406
+char_sti,0.00064981484
+pos_nn vbg nn,0.00064808456
+pos_nnp nnp cd nnp,0.0006468454
+char_ **,0.00064608647
+pos_nn in vbg,0.0006460003
+char_ies,0.00064576574
+char_e c,0.0006452907
+char_ut ,0.0006425917
+char_ng,0.0006418343
+pos_nn nn nnp,0.0006406371
+char_ap,0.0006396325
+pos_nns nn nnp,0.0006389012
+char_ab,0.000638667
+char_e s,0.00063476723
+char_re,0.0006311144
+char_op,0.00063109334
+char_n a,0.00063041813
+char_fo,0.00063011574
+pos_jj jj nn nnp,0.00062952377
+pos_jj nns cc,0.0006261376
+pos_jj nn nn nnp,0.0006246331
+char_ u,0.000623966
+char_ght,0.0006227633
+char_ee,0.00062089844
+char_ve,0.0006200286
+"char_e, ",0.00062001985
+char_um,0.00061891845
+char_em,0.0006182574
+char_est,0.00061794015
+pos_in jj jj,0.0006157367
+char_ect,0.00061265356
+pos_jj nn prp,0.00061235396
+pos_to vb nn,0.0006097318
+char_ial,0.00060915586
+char_te ,0.0006066557
+char_ted,0.0006055575
+pos_in dt nn in,0.0006047313
+pos_nns vbp jj,0.0006045405
+char_ad,0.00060452195
+char_ int,0.00060307997
+char_hi,0.0006030304
+char_ment,0.0006004078
+char_rc,0.00059924833
+char_res,0.00059871643
+pos_nn nn nns,0.0005978722
+pos_jj nnp nnp nn,0.00059769774
+pos_nnp dt nn,0.000596246
+pos_cd nnp nnp,0.00059538137
+char_:*,0.0005946691
+pos_nn nn in jj,0.0005942354
+char_fa,0.0005932668
+pos_nn vbz jj,0.0005920427
+char_ight,0.0005902317
+pos_nnp nnp nnp nnp cd,0.0005866302
+pos_jj nnp nns,0.00058608013
+char_yo,0.0005832244
+pos_rb in dt,0.0005830966
+char_thi,0.00058201485
+char_o ,0.0005820021
+pos_nnp in nn,0.0005818775
+char_our,0.000581622
+char_ p,0.00058132736
+char_te,0.0005795835
+pos_vbz rb jj,0.00057910813
+pos_nns nn nn,0.0005785134
+pos_nnp nnp in nnp nnp,0.00057818147
+pos_cd nnp nnp nnp,0.00057706767
+char_d a,0.0005732298
+pos_in dt nn,0.00057109864
+pos_nn wdt vbz,0.0005703435
+char_ t,0.0005702509
+char_ o,0.0005695334
+pos_dt nn in jj,0.0005687918
+char_ho,0.0005682543
+char_gh,0.0005662351
+pos_nnp vbd cd,0.0005647939
+char_ * ,0.0005635175
+char_s.,0.0005632789
+pos_nn in dt,0.0005623406
+word_to note that,0.0005616419
+pos_in dt jj nn,0.00055903406
+char_co,0.00055891107
+char_ is,0.0005588115
+char_sa,0.00055768003
+pos_nn cc nn nn,0.0005568678
+char_for ,0.0005547112
+char_ ca,0.0005535876
+pos_vb jj nnp,0.0005524759
+pos_jj nn vbz,0.0005519987
+pos_nnp nnp nn jj,0.0005510798
+char_at,0.0005508307
+pos_jj nn in nnp,0.0005492436
+char_ld,0.00054705155
+char_ s,0.0005456963
+pos_nn jj nnp nn,0.000544375
+char_ly,0.00054338493
+char_so,0.0005409916
+char_str,0.00053994183
+pos_nnp jj nn,0.000539526
+char_ss,0.00053940224
+char_tive,0.000537247
+pos_nn prp vbp,0.00053449365
+pos_jj nnp nnp nnp nn,0.00053299055
+pos_nnp nnp nnp cc,0.00053182786
+char_. ,0.000531242
+pos_nns in jj,0.000528224
+char_tt,0.00052613957
+pos_nns cd vb jj nnp,0.0005254989
+pos_nnp nn jj nn,0.0005205972
+char_rd,0.00051939546
+char_ul,0.0005193923
+char_ra,0.00051832106
+char_cu,0.00051764527
+pos_nn dt jj nn,0.0005167594
+pos_nn nnp nnp nnp,0.0005150326
+char_her,0.0005145316
+char_all,0.000513159
+char_ant,0.00051223993
+char_od,0.0005120825
+pos_jj nn cc,0.0005114714
+char_e o,0.0005096773
+char_se,0.00050528673
+pos_nnp nnp nns,0.0005030618
+pos_nn prp md,0.0005006781
+pos_dt nn in nn,0.0004995461
+pos_nn md vb,0.0004985992
+pos_in dt jj nn in,0.0004956719
+char_ia,0.000491817
+pos_nnp nnp nnp nn,0.0004916628
+pos_nn nn cd,0.0004912179
+pos_nnp nnp vbz,0.0004910358
+char_st ,0.00049101154
+char_an,0.00048147587
+pos_jj nns cd,0.00048041352
+char_can,0.00047899087
+pos_prp md vb,0.00047814858
+pos_nn vbg dt,0.00047781825
+char_lin,0.0004777991
+char_ua,0.00047589486
+char_po,0.00047399118
+pos_nnp nn cc,0.00046866314
+pos_nnp nn jj nnp,0.00046600844
+pos_jj jj nns,0.00046455517
+char_cal,0.00046362638
+pos_jj nn in dt,0.000457488
+char_act,0.00045620798
+pos_jj nns jj,0.0004554772
+char_im,0.0004495514
+char_ con,0.00044897007
+pos_nns cd vb jj,0.00044735824
+pos_jj nnp nn nn,0.00044711464
+pos_in nns cc,0.00044324432
+char_fe,0.00043877328
+pos_in jj nn nn,0.000437361
+pos_vbg dt jj,0.00043722396
+pos_nn nnp nnp nnp nnp,0.00043635414
+char_spe,0.00043327786
+char_enc,0.0004326278
+char_atio,0.0004313659
+pos_jj nn in jj,0.0004286132
+char_ver,0.00042761755
+char_the ,0.00042685028
+pos_in nns in,0.0004254212
+char_ *,0.00042338317
+pos_nn nns in,0.00042074439
+char_ge,0.00041957904
+pos_vbg nn in,0.00041198003
+word_here are the key,0.00040990498
+"char_, ",0.00040645458
+char_us,0.00040634634
+pos_jj in jj,0.000403912
+pos_nn vbz rb,0.00040154412
+char_i ,0.00040093923
+char_rs,0.0003967277
+pos_nns cd vb,0.00039658826
+pos_nnp cd nn,0.00039248634
+pos_cc nn in,0.00039123133
+pos_nnp nn vbz,0.0003893134
+char_cr,0.00038835453
+pos_nnp vbz jj,0.0003866715
+pos_nnp nnp nnp jj nnp,0.0003829328
+pos_jj nn jj nnp,0.00038109612
+char_ay,0.00037560376
+pos_nn in nn,0.0003736559
+pos_jj nnp in,0.00037352633
+char_tra,0.0003702924
+char_t t,0.0003695133
+pos_nn in jj,0.0003689128
+pos_nnp nnp cd,0.0003623744
+pos_dt nn jj,0.00036218675
+pos_nnp nnp in dt,0.00035477264
+char_ore,0.00035257477
+pos_nn jj nnp nnp,0.0003460907
+char_st,0.0003456699
+pos_cd nn nn,0.00034434584
+char_ts ,0.0003362746
+char_tr,0.00032873964
+pos_jj nns in dt,0.0003281473
+pos_nn nn dt,0.00032121534
+char_k ,0.0003195394
+char_iv,0.00031180354
+pos_jj nns nn,0.00030645274
+pos_prp nn nn,0.00030279424
+pos_jj cc jj,0.0003023099
+pos_nnp nnp nn jj nnp,0.0002976733
+char_gi,0.00027615522
+pos_nn vbz dt,0.00027485212
+char_ to,0.000271368
+pos_nn jj nnp nnp nnp,0.0002662154
+pos_in dt jj nn nn,0.00026226125
+pos_nns cc jj nns,0.00026094986
+pos_nnp nns nn,0.00025857487
+pos_nnp nnp jj nnp,0.00023905413
+pos_nn jj nn nnp,0.00023308843
+pos_in nn in,0.00022790783
+pos_vb prp vb,0.00020966453
+char_ds,0.00020043149
+pos_vbp jj nn,0.00018993151
+pos_nn nnp nnp nn,0.00018586531
+pos_jj nn nn,0.00016014065
+pos_nnp nnp nnp nnp in,0.00015918227
+char_or,0.0001473272
+pos_prp vbp rb,0.0001349554
+pos_jj jj nn nn,0.00013391346
+pos_in dt nn nn,0.0001292449
+word_any specific aspect,5.2943466e-05
+pos_nnp nnp nnp nnp nn,4.150048e-05
+pos_nnp nnp nnp nn jj,4.0335923e-05
+pos_nnp nnp nnp cc nnp,3.8937163e-05
+pos_nnp nnp nnp dt,3.186766e-05
+word_here are some of,0.0
+pos_nnp jj nnp,0.0
+pos_nnp dt nnp,0.0
+pos_nn vbz nnp,0.0
+word_here are some key,0.0
+word_how it works,0.0
+word_if they are,0.0
+word_here are several,0.0
+word_here are few,0.0
+word_here an overview,0.0
+word_help you with,0.0
+word_help you understand,0.0
+word_how the business,0.0
+word_here breakdown of,0.0
+word_here are some of the,0.0
+word_here why it,0.0
+word_help you find,0.0
+word_here step by step,0.0
+word_here step by,0.0
+word_here the breakdown,0.0
+word_here list of,0.0
+word_here breakdown of why,0.0
+word_here breakdown of what,0.0
+word_here are the,0.0
+word_here breakdown of the,0.0
+word_if this card,0.0
+word_how do we,0.0
+word_help you create,0.0
+word_here breakdown of its,0.0
+word_how do you,0.0
+pos_nnp cd nnp,0.0
+word_apologize but cannot provide,0.0
+word_if you are,0.0
+pos_nn jj jj nn,0.0
+word_in the us,0.0
+word_in the way,0.0
+word_in the world,0.0
+word_in this case,0.0
+pos_nn nn in,0.0
+pos_nn nn cc nn,0.0
+pos_nn nn cc jj,0.0
+word_in way that,0.0
+word_information about the,0.0
+word_inspired by the,0.0
+word_into living breathing,0.0
+word_is based on,0.0
+word_is complex and,0.0
+pos_nn jj nn,0.0
+word_is crucial for,0.0
+word_in the uk,0.0
+word_is essential for,0.0
+word_is known for,0.0
+word_is not just,0.0
+pos_nn in nnp nnp,0.0
+word_is often the,0.0
+word_is one of,0.0
+pos_nn in nn cc,0.0
+pos_nn in jj nns,0.0
+word_is one of the,0.0
+pos_nn in dt nnp,0.0
+word_is part of,0.0
+word_is the most,0.0
+word_it can be,0.0
+word_allows you to,0.0
+pos_nn nn jj nn,0.0
+word_in the same,0.0
+word_if you can,0.0
+word_if you re looking for,0.0
+pos_nn prp vbz,0.0
+word_if you don,0.0
+word_if you have,0.0
+word_if you like,0.0
+word_if you like can,0.0
+word_if you like help,0.0
+word_if you like to,0.0
+pos_nn nnp nnp nnp nn,0.0
+word_if you need,0.0
+word_happy to help you,0.0
+word_if you re,0.0
+word_if you re interested,0.0
+word_if you re looking,0.0
+pos_nn nnp jj,0.0
+word_if you ve,0.0
+word_in the past,0.0
+word_in front of,0.0
+word_in real time,0.0
+pos_nn nn rb,0.0
+pos_nn nn prp,0.0
+word_in recent years,0.0
+word_in summary the,0.0
+word_in terms of,0.0
+word_in the context,0.0
+word_in the context of,0.0
+pos_nn nn nn nnp,0.0
+word_in the early,0.0
+word_in the game,0.0
+word_in the late,0.0
+word_in the morning,0.0
+word_have access to,0.0
+pos_nnp nnp cc nnp nnp,0.0
+pos_nnp jj nns,0.0
+word_breakdown of the,0.0
+pos_nns jj nns,0.0
+word_but cannot actually,0.0
+pos_nns nn jj,0.0
+word_breakdown of why,0.0
+word_any of these,0.0
+word_breakdown of what,0.0
+word_any specific aspect of,0.0
+word_breakdown of its,0.0
+word_happy to help,0.0
+word_apologize but cannot,0.0
+word_breakdown of how,0.0
+pos_nns nnp nnp nnp,0.0
+word_break this down,0.0
+word_break it down,0.0
+pos_nns vbn in,0.0
+word_break down the,0.0
+pos_nns jj nnp,0.0
+word_but cannot provide,0.0
+pos_nns jj jj,0.0
+word_by step guide,0.0
+word_could lead to,0.0
+word_and the ability,0.0
+pos_vbp dt jj,0.0
+word_coca cola cambodia,0.0
+word_and the ability to,0.0
+word_cc by sa,0.0
+word_can vary depending on,0.0
+word_and you re,0.0
+word_can vary depending,0.0
+word_can lead to,0.0
+word_can help you,0.0
+word_can help with,0.0
+word_can give you,0.0
+word_can be used,0.0
+word_call to action,0.0
+pos_nns vbp nn,0.0
+word_be used to,0.0
+word_be seen as,0.0
+word_at the end,0.0
+word_as part of,0.0
+word_as of now,0.0
+word_as of mid,0.0
+pos_vb in dt,0.0
+word_as of 2025,0.0
+word_as of 2024,0.0
+pos_vbg jj nns,0.0
+word_are the most,0.0
+word_are the key,0.0
+word_are some of the,0.0
+word_are some of,0.0
+pos_vb prp nn,0.0
+word_are some key,0.0
+word_are part of,0.0
+word_are designed to,0.0
+word_associated with the,0.0
+word_at the same,0.0
+word_be prepared for,0.0
+word_at the same time,0.0
+word_be happy to help you,0.0
+word_be happy to help,0.0
+word_be happy to,0.0
+word_be able to,0.0
+word_based on your,0.0
+pos_rb jj jj,0.0
+pos_rb jj nn,0.0
+pos_rb jj nns,0.0
+word_based on their,0.0
+word_based on the,0.0
+word_based on current,0.0
+word_back to the,0.0
+word_at the top,0.0
+word_at the time,0.0
+pos_to vb jj,0.0
+word_could you please,0.0
+word_and long term,0.0
+word_and lack of,0.0
+word_focus on the,0.0
+pos_nnp nnp in,0.0
+word_feel free to,0.0
+word_even if the,0.0
+word_even if it,0.0
+pos_nnp nnp jj nnp nnp,0.0
+word_especially in the,0.0
+word_especially if you,0.0
+pos_vbz jj nnp,0.0
+word_end to end,0.0
+word_end of the,0.0
+word_elaborate on any specific aspect,0.0
+pos_nnp nnp nn nnp nnp,0.0
+pos_nnp nnp nn nns,0.0
+word_elaborate on any specific,0.0
+word_elaborate on any of these,0.0
+pos_nnp nnp dt,0.0
+word_focuses on the,0.0
+pos_nnp nnp nnp cd,0.0
+word_are based on,0.0
+word_goal is to,0.0
+pos_nnp nn jj,0.0
+word_go to the,0.0
+pos_nnp nn nn,0.0
+word_frac vec vec,0.0
+word_for your specific,0.0
+word_for the next,0.0
+pos_nnp nn nn nnp nnp,0.0
+word_for the most up to,0.0
+word_for the most up,0.0
+word_for the most,0.0
+pos_nnp nn nnp nnp nnp,0.0
+word_for the first,0.0
+word_for real time,0.0
+word_focusing on the,0.0
+word_also known as,0.0
+word_elaborate on any of,0.0
+word_create an ai,0.0
+word_designed to be,0.0
+pos_nnp nnp nnp vbz,0.0
+word_and decision making,0.0
+word_design lens that,0.0
+pos_nnp nnp rb,0.0
+word_depends on your,0.0
+word_depends on the,0.0
+pos_nnp nnp vbg,0.0
+word_depends entirely on,0.0
+word_depending on your,0.0
+pos_nnp nns vbp,0.0
+word_depending on the,0.0
+word_and easy to,0.0
+pos_nnp vbp jj,0.0
+word_and how to,0.0
+word_crucial role in,0.0
+pos_nnp nnp nnp vbp,0.0
+word_do my best,0.0
+word_it comes to,0.0
+word_do my best to,0.0
+pos_nnp nnp nnp jj,0.0
+pos_nnp nnp nnp jj nn,0.0
+word_an overview of,0.0
+pos_nnp nnp nnp nn in,0.0
+word_due to their,0.0
+pos_nnp nnp nnp nn nnp,0.0
+pos_nnp nnp nnp nn vbz,0.0
+pos_nnp nnp nnp nnp,0.0
+word_due to the,0.0
+word_and can be,0.0
+word_due to its,0.0
+pos_nnp nnp nnp nnp jj,0.0
+word_and can tailor,0.0
+word_don have to,0.0
+word_do you have,0.0
+word_elaborate on any,0.0
+word_let me know what,0.0
+word_it could be,0.0
+word_the value of,0.0
+word_this can be,0.0
+word_think of it,0.0
+word_they are not,0.0
+word_there no single,0.0
+word_there is no,0.0
+word_there are several,0.0
+word_there are no,0.0
+word_the use of,0.0
+word_this could be,0.0
+word_the united states,0.0
+word_the type of,0.0
+word_the same time,0.0
+word_the role of,0.0
+word_the risk of,0.0
+word_the rise of,0.0
+word_the rest of,0.0
+word_this card is,0.0
+word_this is an,0.0
+word_the ability to,0.0
+word_to date information,0.0
+word_to help you,0.0
+word_to focus on,0.0
+word_to find the,0.0
+word_to elaborate on any specific,0.0
+word_to elaborate on any of,0.0
+word_to elaborate on any,0.0
+word_to elaborate on,0.0
+word_to be helpful,0.0
+word_this is complex,0.0
+word_to be direct,0.0
+word_this refers to,0.0
+word_this is where,0.0
+word_this is the most,0.0
+word_this is the,0.0
+word_this is often,0.0
+word_this is crucial,0.0
+word_the process of,0.0
+word_the probability of,0.0
+word_the power of,0.0
+word_the federal reserve,0.0
+word_the idea that,0.0
+word_the idea of,0.0
+word_the heart of,0.0
+word_the goal is,0.0
+word_the gap between,0.0
+word_the first time,0.0
+word_the fire and,0.0
+word_the end of the,0.0
+word_the potential for,0.0
+word_the end of,0.0
+word_the development of,0.0
+word_the cost of,0.0
+word_the context of,0.0
+word_the concept of,0.0
+word_the company page,0.0
+word_the age of,0.0
+word_the impact of,0.0
+word_the importance of,0.0
+word_the intersection of,0.0
+word_the key is,0.0
+word_the number of,0.0
+word_the need for,0.0
+word_the nature of,0.0
+word_the most up to date,0.0
+word_the most up to,0.0
+word_the most up,0.0
+word_the most recent,0.0
+word_the most important,0.0
+word_the most effective,0.0
+word_the most current,0.0
+word_the most common,0.0
+word_the most accurate,0.0
+word_the loss of,0.0
+word_the long term,0.0
+word_the lack of,0.0
+word_to help you with,0.0
+word_to the same,0.0
+word_to understand the,0.0
+word_you ll need,0.0
+word_you re experiencing,0.0
+word_you re describing,0.0
+word_you re asking about,0.0
+word_you re asking,0.0
+word_you need to,0.0
+word_you might be,0.0
+word_you ll need to,0.0
+word_you like to explore,0.0
+word_would you like to,0.0
+word_you like to,0.0
+word_you like me,0.0
+word_you like help,0.0
+word_you like can,0.0
+word_you don have to,0.0
+word_you don have,0.0
+word_you can use,0.0
+word_you re feeling,0.0
+word_you re in,0.0
+word_you re interested,0.0
+word_you re interested in,0.0
+word_aim to be,0.0
+word_your specific needs,0.0
+word_you want to,0.0
+word_you ve got,0.0
+word_you tell me,0.0
+word_you re using,0.0
+word_you re trying to,0.0
+word_you re trying,0.0
+word_you re still,0.0
+word_you re referring to,0.0
+word_you re referring,0.0
+word_you re not alone,0.0
+word_you re not,0.0
+word_you re looking for,0.0
+word_you re looking,0.0
+word_you can find,0.0
+word_would you like me,0.0
+word_to your body,0.0
+word_what are the,0.0
+word_what you can,0.0
+word_what would you,0.0
+word_what to do,0.0
+word_what kind of,0.0
+word_what it is,0.0
+word_what is the,0.0
+word_what do you,0.0
+word_want to be direct,0.0
+word_would you like help,0.0
+word_want to be,0.0
+word_version of the,0.0
+word_vec frac vec,0.0
+word_vary depending on,0.0
+word_up to date information,0.0
+word_up to date,0.0
+word_understanding of the,0.0
+word_what you need,0.0
+word_what you re,0.0
+word_when it comes to,0.0
+word_when with you,0.0
+word_would you like,0.0
+word_would you be,0.0
+word_would need to,0.0
+word_world war ii,0.0
+word_with focus on,0.0
+word_wide range of,0.0
+word_why this works,0.0
+word_why it works,0.0
+word_why it matters,0.0
+word_why it great,0.0
+word_why it fits,0.0
+word_why it cool,0.0
+word_why did the,0.0
+word_whether you re,0.0
+word_where you can,0.0
+word_the act of,0.0
+word_that you re,0.0
+pos_nn cd vb jj nnp,0.0
+word_ll need to,0.0
+word_me know if you need,0.0
+word_me know if you like,0.0
+word_me know if you,0.0
+word_me know if,0.0
+word_me break down,0.0
+word_may not be,0.0
+word_located in the,0.0
+word_ll help you,0.0
+pos_jj nn cd vb jj,0.0
+pos_jj nn nn nn,0.0
+word_ll do my best to,0.0
+word_like you re,0.0
+word_like me to elaborate on,0.0
+pos_jj nn nnp nn,0.0
+pos_jj nn nnp nnp,0.0
+pos_jj nn nnp nnp nnp,0.0
+word_me know if you want,0.0
+pos_jj nn cd vb,0.0
+word_that generates personalized,0.0
+word_more likely to,0.0
+pos_in vbg dt,0.0
+pos_in vbg jj,0.0
+word_most up to date,0.0
+word_most up to,0.0
+word_most of the,0.0
+pos_jj jj jj nn,0.0
+word_more than just,0.0
+word_might not be,0.0
+word_me know what,0.0
+word_might be more,0.0
+word_me to help,0.0
+word_me to elaborate on any,0.0
+word_me to elaborate on,0.0
+pos_jj jj nnp nnp nnp,0.0
+word_me to elaborate,0.0
+word_me know your,0.0
+word_let me know if you,0.0
+word_let me know if,0.0
+word_let me know,0.0
+word_it sounds like,0.0
+word_key considerations for,0.0
+word_key characteristics of,0.0
+word_just let me know,0.0
+word_just let me,0.0
+word_it would be,0.0
+pos_nn cc jj nn,0.0
+word_it was the,0.0
+pos_nn cc jj nns,0.0
+word_let me break down,0.0
+word_it okay to,0.0
+word_it might be,0.0
+word_it is the,0.0
+word_it is not,0.0
+word_it important to,0.0
+word_it does not,0.0
+pos_nn cd vb jj,0.0
+word_know if you,0.0
+word_know if you like,0.0
+pos_jj nns vbg,0.0
+word_know if you need,0.0
+pos_jj nnp jj,0.0
+word_let me break,0.0
+word_let break it down,0.0
+word_let break it,0.0
+word_let break down,0.0
+word_less likely to,0.0
+word_lens that generates personalized,0.0
+word_lens that generates full,0.0
+word_lens that generates,0.0
+word_league of legends,0.0
+word_large language models,0.0
+word_known for its,0.0
+word_known as the,0.0
+pos_jj nns nnp,0.0
+word_know if you want,0.0
+word_most up to date information,0.0
+word_my best to,0.0
+word_n_ text ph,0.0
+pos_cd vb jj nnp nnp,0.0
+pos_cd jj nnp,0.0
+word_since this is,0.0
+pos_cd nn nnp,0.0
+word_side by side,0.0
+word_refers to the,0.0
+word_recommend checking the,0.0
+word_real time data,0.0
+pos_dt jj jj,0.0
+word_re asking about,0.0
+word_ready to help,0.0
+pos_dt jj nn,0.0
+pos_dt jj nn cc,0.0
+word_re trying to,0.0
+word_re referring to,0.0
+word_re not alone,0.0
+word_re looking for,0.0
+word_some of the,0.0
+pos_cc nnp nnp nnp nnp,0.0
+word_some of the most,0.0
+word_sounds like you,0.0
+word_that generates full,0.0
+word_that can be,0.0
+word_thank you for,0.0
+word_tell me what,0.0
+word_tailored to your,0.0
+word_tab a7 lite,0.0
+word_summary of the,0.0
+pos_cc jj jj,0.0
+word_such as the,0.0
+word_step by step guide,0.0
+pos_cc jj nnp nnp,0.0
+word_step by step,0.0
+word_start with the,0.0
+word_specific aspect of,0.0
+pos_cc nnp nn,0.0
+word_re interested in,0.0
+word_quality of life,0.0
+word_natural language processing,0.0
+word_of the most,0.0
+word_on any of,0.0
+word_often used in,0.0
+word_often the most,0.0
+word_of the world,0.0
+word_of the universe,0.0
+word_of the same,0.0
+word_of the people,0.0
+word_of the key,0.0
+word_please note that,0.0
+word_of the best,0.0
+pos_in nn nnp,0.0
+word_of mid 2025,0.0
+word_not just the,0.0
+pos_in nnp nn,0.0
+word_need to be,0.0
+word_nature of the,0.0
+word_on any of these,0.0
+word_on any specific,0.0
+word_on any specific aspect,0.0
+word_on any specific aspect of,0.0
+word_parts of the,0.0
+word_part of the,0.0
+word_overview of the,0.0
+word_out of the,0.0
+word_or if you,0.0
+word_one of these,0.0
+word_one of the most,0.0
+word_one of the,0.0
+word_on your specific,0.0
+word_on what you,0.0
+word_on the specific,0.0
+pos_dt nns in,0.0
+word_on the context,0.0
+word_on both sides,0.0
+pos_in dt nn cc,0.0
+word_about what you,0.0

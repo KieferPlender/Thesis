@@ -52,7 +52,7 @@ with open('classifier_training_samples_markdown_stripped.jsonl', 'w') as f:
     for item in training_data:
         f.write(json.dumps(item) + '\n')
 
-print(f"   ✓ Saved to classifier_training_samples_markdown_stripped.jsonl")
+print(f"   Done: Saved to classifier_training_samples_markdown_stripped.jsonl")
 
 # Verify training data
 with open('classifier_training_samples_markdown_stripped.jsonl', 'r') as f:
@@ -77,7 +77,7 @@ with open('intervention_markdown_strip.jsonl', 'w') as f:
     for item in test_data:
         f.write(json.dumps(item) + '\n')
 
-print(f"   ✓ Saved to intervention_markdown_strip.jsonl")
+print(f"   Done: Saved to intervention_markdown_strip.jsonl")
 
 # Verify test data
 with open('intervention_markdown_strip.jsonl', 'r') as f:

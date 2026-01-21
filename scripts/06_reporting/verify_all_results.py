@@ -260,7 +260,7 @@ baseline = calculate_biased_self_preference(
 
 markdown = calculate_biased_self_preference(
     'data/processed/intervention_markdown_strip.jsonl',
-    'data/results/intervention_markdown_strip_results.jsonl',
+    'data/judging_results/intervention_markdown_strip_results.jsonl',
     "Markdown Removal"
 )
 
@@ -269,7 +269,7 @@ qwen_bt_temp = 'temp_qwen_bt.jsonl'
 path_bt = filter_with_sbert('data/processed/intervention_qwen_chinese.jsonl', qwen_bt_temp)
 qwen_bt = calculate_biased_self_preference(
     path_bt, 
-    'data/results/intervention_qwen_results.jsonl', 
+    'data/judging_results/intervention_qwen_results.jsonl', 
     "Qwen Back-Translation"
 )
 
@@ -278,7 +278,7 @@ qwen_para_temp = 'temp_qwen_para.jsonl'
 path_para = filter_with_sbert('data/processed/intervention_qwen_paraphrase.jsonl', qwen_para_temp)
 qwen_para = calculate_biased_self_preference(
     path_para, 
-    'data/results/intervention_qwen_paraphrase_results.jsonl', 
+    'data/judging_results/intervention_qwen_paraphrase_results.jsonl', 
     "Qwen Paraphrasing"
 )
 

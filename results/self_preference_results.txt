@@ -7,7 +7,8 @@ This ensures 100% accuracy for your thesis.
 
 
 ================================================================================
-1. BASELINE SELF-PREFERENCE BIAS
+================================================================================
+1. BASELINE SELF-PREFERENCE BIAS (FULL DATASET)
 ================================================================================
 DeepSeek-R1           79.93% (215/269)
 ChatGPT-4o            54.33% (138/254)
@@ -15,48 +16,45 @@ Claude-Haiku          21.38% (105/491)
 AVERAGE               51.88%
 
 ================================================================================
-2. MARKDOWN REMOVAL INTERVENTION
+2. MARKDOWN REMOVAL (FULL DATASET)
 ================================================================================
-DeepSeek-R1           75.56% (reduction:  4.36pp)
-ChatGPT-4o            50.38% (reduction:  3.95pp)
+DeepSeek-R1           75.66% (reduction:  4.27pp)
+ChatGPT-4o            50.19% (reduction:  4.14pp)
 Claude-Haiku          22.40% (reduction: -1.02pp)
-AVERAGE               49.45% (reduction:  2.43pp)
+AVERAGE               49.42% (reduction:  2.46pp)
 
 ================================================================================
-3. QWEN BACK-TRANSLATION INTERVENTION
+3. QWEN BACK-TRANSLATION (SBERT SWEET SPOT)
 ================================================================================
-DeepSeek-R1           75.10% (reduction:  4.83pp)
-ChatGPT-4o            49.60% (reduction:  4.73pp)
-Claude-Haiku          21.85% (reduction: -0.46pp)
-AVERAGE               48.85% (reduction:  3.03pp)
+DeepSeek-R1           74.78% (reduction:  5.15pp)
+ChatGPT-4o            48.90% (reduction:  5.43pp)
+Claude-Haiku          19.66% (reduction:  1.72pp)
+AVERAGE               47.78% (reduction:  4.10pp)
 
 ================================================================================
-4. QWEN PARAPHRASING INTERVENTION
+4. QWEN PARAPHRASING (SBERT SWEET SPOT)
 ================================================================================
-DeepSeek-R1           76.45% (reduction:  3.48pp)
-ChatGPT-4o            51.78% (reduction:  2.55pp)
-Claude-Haiku          24.05% (reduction: -2.67pp)
-AVERAGE               50.76% (reduction:  1.12pp)
+DeepSeek-R1           77.42% (reduction:  2.51pp)
+ChatGPT-4o            52.86% (reduction:  1.47pp)
+Claude-Haiku          23.11% (reduction: -1.73pp)
+AVERAGE               51.13% (reduction:  0.75pp)
 
 ================================================================================
-FINAL VERIFIED RESULTS
+FINAL VERIFIED RESULTS SUMMARY
 ================================================================================
-
 Baseline Average:           51.88%
-Markdown Removal:           49.45% (+2.43pp)
-Qwen Back-Translation:      48.85% (+3.03pp)
-Qwen Paraphrasing:          50.76% (+1.12pp)
+Markdown Removal:           49.42% (-2.46pp)
+Qwen Back-Translation:      47.78% (-4.10pp)
+Qwen Paraphrasing:          51.13% (-0.75pp)
 
 ================================================================================
-RANKING
+RANKING (EFFECTIVENESS AT REDUCING BIAS)
 ================================================================================
-1. Qwen Back-Translation     -3.03pp 🥇
-2. Markdown Removal          -2.43pp 🥈
-3. Qwen Paraphrasing         -1.12pp 🥉
+1. Qwen Back-Translation     -4.10pp 🥇 (Most effective)
+2. Markdown Removal          -2.46pp 🥈
+3. Qwen Paraphrasing         -0.75pp 🥉 (Least effective)
 
-================================================================================
-✅ ALL RESULTS VERIFIED FROM RAW DATA
-================================================================================
+NOTE: For exact p-values and matched-pair statistical analysis, see 
+results/DEFINITIVE_SPR_RESULTS.md or results/metrics/statistical_significance_rigorous.txt
 
-These numbers are calculated directly from your data files.
-You can confidently use them in your thesis!
+

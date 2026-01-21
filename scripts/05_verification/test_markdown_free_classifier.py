@@ -6,7 +6,7 @@ import numpy as np
 import sys
 import os
 
-sys.path.append(os.getcwd())
+sys.path.append(os.path.join(os.getcwd(), 'scripts/01_training'))
 from train_mcgovern_classifier import PosTagExtractor
 
 def load_data(file_path):
@@ -68,16 +68,16 @@ def main():
     print("  - Training: Separate subset for classifier training")
     print("  - Test: Intervention data for judging experiments")
     print("  - No overlap between training and test sets")
-    print("✓ No data leakage")
+    print("Done: No data leakage")
     
     # Load markdown-free classifier
     print("\n" + "="*70)
     print("LOADING CLASSIFIER")
     print("="*70)
     print("Loading markdown-free classifier...")
-    with open('mcgovern_classifier_markdown_free.pkl', 'rb') as f:
+    with open('models/mcgovern_classifier_markdown_free.pkl', 'rb') as f:
         clf = pickle.load(f)
-    print("✓ Classifier loaded")
+    print("Done: Classifier loaded")
     print(f"  Classifier type: {type(clf).__name__}")
     
     # Verify classifier has label encoder
@@ -90,7 +90,7 @@ def main():
     print("\n" + "="*70)
     print("LOADING TEST DATA")
     print("="*70)
-    X_test, y_test = load_data('intervention_markdown_strip.jsonl')
+    X_test, y_test = load_data('data/processed/intervention_markdown_strip.jsonl')
     
     # Predict
     print("\n" + "="*70)
@@ -107,7 +107,7 @@ def main():
     else:
         y_pred = y_pred_encoded
     
-    print("✓ Predictions complete")
+    print("Done: Predictions complete")
     
     # Calculate metrics
     print("\n" + "="*70)

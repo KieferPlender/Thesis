@@ -7,12 +7,12 @@ Intervention              Judge           n      Baseline   After      Δ       
 Markdown Removal          DeepSeek-R1     264     79.92%    76.52%    3.41pp  0.1374 ns   0.083  negligible  
 Markdown Removal          ChatGPT-4o      251     53.78%    50.60%    3.19pp  0.1859 ns   0.064  negligible  
 Markdown Removal          Claude-Haiku    485     21.44%    21.86%   -0.41pp  0.8383 ns  -0.010  negligible  
-Qwen Back-Translation     DeepSeek-R1     256     80.08%    75.39%    4.69pp  0.0518 ns   0.113  negligible  
-Qwen Back-Translation     ChatGPT-4o      243     53.50%    50.62%    2.88pp  0.2812 ns   0.058  negligible  
-Qwen Back-Translation     Claude-Haiku    466     21.03%    21.03%    0.00pp  0.8501 ns   0.000  negligible  
-Qwen Paraphrasing         DeepSeek-R1     241     78.84%    76.76%    2.07pp  0.5108 ns   0.050  negligible  
-Qwen Paraphrasing         ChatGPT-4o      242     54.13%    51.65%    2.48pp  0.4292 ns   0.050  negligible  
-Qwen Paraphrasing         Claude-Haiku    466     20.82%    23.61%   -2.79pp  0.0547 ns  -0.067  negligible  
+Qwen Back-Translation     DeepSeek-R1     224     80.36%    75.45%    4.91pp  0.0633 ns   0.119  negligible  
+Qwen Back-Translation     ChatGPT-4o      220     51.82%    50.00%    1.82pp  0.5563 ns   0.036  negligible  
+Qwen Back-Translation     Claude-Haiku    408     19.61%    18.87%    0.74pp  0.6464 ns   0.019  negligible  
+Qwen Paraphrasing         DeepSeek-R1     217     79.26%    77.42%    1.84pp  0.5839 ns   0.045  negligible  
+Qwen Paraphrasing         ChatGPT-4o      216     53.24%    52.78%    0.46pp  1.0000 ns   0.009  negligible  
+Qwen Paraphrasing         Claude-Haiku    429     19.58%    22.61%   -3.03pp  0.0311 *   -0.074  negligible  
 
 Significance levels: *** p<0.001, ** p<0.01, * p<0.05, ns = not significant
 
@@ -22,6 +22,6 @@ METHODOLOGY:
 - Cohen's h for effect size
 
 KEY FINDING:
-- 0/9 interventions are statistically significant (p < 0.05)
+- 1/9 interventions are statistically significant (p < 0.05)
 - 9/9 have negligible effect sizes (|h| < 0.2)
 - Changes are real but have limited practical impact

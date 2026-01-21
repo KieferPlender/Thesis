@@ -140,7 +140,7 @@ for conv_id in baseline_samples:
         battle['winner'] = baseline_samples[conv_id]['human_winner']  # Add winner field
         baseline_battles.append(battle)
 
-print(f"✓ Loaded {len(baseline_battles)} baseline battles (merged samples + results)")
+print(f"Done: Loaded {len(baseline_battles)} baseline battles (merged samples + results)")
 
 # Load intervention data - need to merge with original battle samples
 # Load intervention data - need to merge with original battle samples
@@ -215,9 +215,9 @@ def filter_ids_with_sbert(data_path):
     return valid_ids
 
 interventions = {
-    'markdown': ('data/processed/intervention_markdown_strip.jsonl', 'data/results/intervention_markdown_strip_results.jsonl', False),
-    'qwen_bt': ('data/processed/intervention_qwen_chinese.jsonl', 'data/results/intervention_qwen_results.jsonl', True),
-    'qwen_para': ('data/processed/intervention_qwen_paraphrase.jsonl', 'data/results/intervention_qwen_paraphrase_results.jsonl', True)
+    'markdown': ('data/processed/intervention_markdown_strip.jsonl', 'data/judging_results/intervention_markdown_strip_results.jsonl', False),
+    'qwen_bt': ('data/processed/intervention_qwen_chinese.jsonl', 'data/judging_results/intervention_qwen_results.jsonl', True),
+    'qwen_para': ('data/processed/intervention_qwen_paraphrase.jsonl', 'data/judging_results/intervention_qwen_paraphrase_results.jsonl', True)
 }
 
 intervention_battles = {}
@@ -245,19 +245,19 @@ for name, (data_path, result_path, needs_filter) in interventions.items():
             battles.append(battle)
     
     intervention_battles[name] = battles
-    print(f"✓ Loaded {len(battles)} {name} battles (merged + filtered)")
+    print(f"Done: Loaded {len(battles)} {name} battles (merged + filtered)")
 
 print()
 
 
 print("Calculating biased self-preference per battle...")
 baseline_self_pref = calculate_biased_self_preference_per_battle(baseline_battles)
-print(f"✓ Baseline: {len(baseline_self_pref)} battles processed")
+print(f"Done: Baseline: {len(baseline_self_pref)} battles processed")
 
 intervention_self_pref = {}
 for name in interventions:
     intervention_self_pref[name] = calculate_biased_self_preference_per_battle(intervention_battles[name])
-    print(f"✓ {name}: {len(intervention_self_pref[name])} battles processed")
+    print(f"Done: {name}: {len(intervention_self_pref[name])} battles processed")
 
 print()
 
@@ -456,5 +456,5 @@ with open(output_file, 'w') as f:
     f.write(f"- {len(negligible_effects)}/9 have negligible effect sizes (|h| < 0.2)\n")
     f.write("- Changes are real but have limited practical impact\n")
 
-print(f"✓ Results saved to {output_file}")
+print(f"Done: Results saved to {output_file}")
 print()
